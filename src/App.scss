@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'OmnesBlack';
+    src: url('OmnesBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OmnesSemiBold';
+    src: url('OmnesSemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMPACT';
+    src: url('IMPACT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    user-select: none;
+}
+
+.row_container{
+
+    display: flex;
+    gap: 7px;
+
+    .name_container{
+
+        height: 55.04px;
+        width: 1025px;
+
+        background-color: white;
+        border-radius: 11px;
+
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .rank_container{
+
+            height: 48.01px;
+            width: 72px;
+
+            margin-left: 5px;
+
+            background-color: #00c2e8;
+            border-radius: 11px;
+
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 26px;
+            font-family: 'OmnesBlack';
+
+        }
+
+        .team_name{
+            font-family: 'OmnesBlack';
+            font-size: 26px;
+            color: #00c2e8;
+        }
+
+    }
+
+    .info_box{
+        height: 55.04px;
+        width: 118.99px;
+
+        background-color: white;
+        border-radius: 11px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'OmnesBlack';
+        font-size: 26px;
+        color: #00c2e8;
+    }
+}
+
+.leaderboard_table{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header_container{
+
+    display: flex;
+    gap: 7px;
+
+    .name_header{
+        width: 1025px;
+        height: 41.03px;
+
+        box-shadow: inset 0 0 0 4px white;
+        border-radius: 11px;
+
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        gap: 36px;
+
+        color: white;
+        font-family: 'OmnesBlack';
+        font-size: 20.01px;
+    }
+
+    .info_header{
+        width: 118.99px;
+        height: 41.03px;
+
+        box-shadow: inset 0 0 0 4px white;
+        border-radius: 11px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+        font-family: 'OmnesBlack';
+    }
+
+}
+
+.leaderboard_container{
+    width: 1920px;
+    height: 1080px;
+    background-image: url("leaderboard_background.png");
+
+    .wolt_character{
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        margin-left: -350px;
+        pointer-events: none;
+        background-image: url("wolt_character.png");
+    }
+}
+
+.reddysh_royale{
+
+    .leaderboard_table{
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        top: 264px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .leaderboard_container{
+        width: 1920px;
+        height: 1080px;
+        background-image: url("reddysh_royale_background.png");
+    
+    }
+
+    .row_container{
+
+        display: flex;
+        gap: 15px;
+    
+        .rank_container{
+    
+            height: 58px;
+            width: 69px;
+
+            margin-left: 5px;
+
+            background-color:  white;
+            border-radius: 20px;
+
+            color: #c15c6f;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 26px;
+            font-family: 'OmnesBlack';
+
+        }
+
+        .name_container{
+    
+            height: 58px;
+            width: 600px;
+    
+            background-color: white;
+            border-radius: 20px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            font-family: 'IMPACT';
+            color: #9ed2d8;
+            font-size: 26px;
+        }
+    
+        .info_box{
+            height: 58px;
+            width: 118.99px;
+    
+            background-color: white;
+            border-radius: 20px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            font-family: 'OmnesBlack';
+            font-size: 26px;
+            color: #9ed2d8;
+        }
+    }
+
+    .header_container{
+
+        display: flex;
+        gap: 15px;
+        box-shadow: none;
+        background-color: #c15c6f;
+        border-radius: 20px;
+
+        .rank_header{
+            width: 69px;
+            height: 41.03px;
+                
+            box-shadow: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+    
+            color: white;
+            font-family: 'IMPACT';
+        }
+
+        .name_header{
+            width: 600px;
+            height: 41.03px;
+                
+            box-shadow: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+    
+            color: white;
+            font-family: 'IMPACT';
+        }
+    
+        .info_header{
+            width: 118.99px;
+            height: 41.03px;
+    
+            box-shadow: none;
+            border-radius: 11px;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            color: white;
+            font-family: 'IMPACT';
+        }
+    
+    }
+
+}
+
+.twitch_polls{
+
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    font-family: 'IMPACT';
+
+    .container{
+        position: absolute;
+        right: 30px;
+        top: 114px;
+        width: fit-content;
+        min-width: 300px;
+        padding: 25px;
+        background-color: #ababdf;
+
+        .question{
+            width: 100%;
+            font-family: 'IMPACT';
+            font-size: 30px;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 25px;
+        }
+
+        .choices{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .choice{
+                display: flex;
+
+                padding: 10px;
+                background-color: white;
+                border-radius: 20px;
+                color: #ababdf;
+
+                justify-content: space-between;
+
+                .option{
+
+                }
+
+            }
+        }
+
+    }
+
+}

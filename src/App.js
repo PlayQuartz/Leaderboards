@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LeaderboardWolt from './LeaderboardWolt';
+import LeaderboardReddyshRoyale from './LeaderboardReddyshRoyale'
+import TwitchPolls from './TwitchPolls';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+      <Router>
+        <Routes>
+          <Route path="/wolt_leaderboard" element={<LeaderboardWolt />} />
+          <Route path="/reddysh_royale_leaderboard" element={<LeaderboardReddyshRoyale />} />
+          <Route path="/twitch_polls" element={<TwitchPolls />} />
+        </Routes>
+      </Router>
+    );
+  }
 
 export default App;
