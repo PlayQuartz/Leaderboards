@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b18533df.css",
-    "main.js": "/static/js/main.24ee6cf7.js",
-    "static/js/453.98276a77.chunk.js": "/static/js/453.98276a77.chunk.js",
-    "static/media/reddysh_royale_background.png": "/static/media/reddysh_royale_background.84434ba45ecdd7c68360.png",
-    "static/media/IMPACT.TTF": "/static/media/IMPACT.393c8a0b905e3208112c.TTF",
-    "static/media/leaderboard_background.png": "/static/media/leaderboard_background.6d0bcb66fe9829c326ac.png",
-    "static/media/OmnesSemiBold.ttf": "/static/media/OmnesSemiBold.d9e74f703b27c9c45d13.ttf",
-    "static/media/wolt_character.png": "/static/media/wolt_character.749771f67862b91fb4db.png",
-    "static/media/OmnesBlack.ttf": "/static/media/OmnesBlack.c4d8a67bd6359132ef90.ttf",
-    "index.html": "/index.html",
-    "main.b18533df.css.map": "/static/css/main.b18533df.css.map",
-    "main.24ee6cf7.js.map": "/static/js/main.24ee6cf7.js.map",
-    "453.98276a77.chunk.js.map": "/static/js/453.98276a77.chunk.js.map"
+    "main.css": "/leaderboards/build/static/css/main.a5efd4fe.css",
+    "main.js": "/leaderboards/build/static/js/main.c280e462.js",
+    "static/js/453.98276a77.chunk.js": "/leaderboards/build/static/js/453.98276a77.chunk.js",
+    "static/media/reddysh_royale_background.png": "/leaderboards/build/static/media/reddysh_royale_background.84434ba45ecdd7c68360.png",
+    "static/media/IMPACT.TTF": "/leaderboards/build/static/media/IMPACT.393c8a0b905e3208112c.TTF",
+    "static/media/leaderboard_background.png": "/leaderboards/build/static/media/leaderboard_background.6d0bcb66fe9829c326ac.png",
+    "static/media/OmnesSemiBold.ttf": "/leaderboards/build/static/media/OmnesSemiBold.d9e74f703b27c9c45d13.ttf",
+    "static/media/wolt_character.png": "/leaderboards/build/static/media/wolt_character.749771f67862b91fb4db.png",
+    "static/media/OmnesBlack.ttf": "/leaderboards/build/static/media/OmnesBlack.c4d8a67bd6359132ef90.ttf",
+    "index.html": "/leaderboards/build/index.html",
+    "main.a5efd4fe.css.map": "/leaderboards/build/static/css/main.a5efd4fe.css.map",
+    "main.c280e462.js.map": "/leaderboards/build/static/js/main.c280e462.js.map",
+    "453.98276a77.chunk.js.map": "/leaderboards/build/static/js/453.98276a77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b18533df.css",
-    "static/js/main.24ee6cf7.js"
+    "static/css/main.a5efd4fe.css",
+    "static/js/main.c280e462.js"
   ]
 }
