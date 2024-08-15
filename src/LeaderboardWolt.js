@@ -1,7 +1,7 @@
 import './App.css';
 import React, {useState, useEffect} from "react"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 
 function Row({rank, teamname, points, elims, avg_place, wins}) {
     return (
@@ -20,7 +20,8 @@ function Row({rank, teamname, points, elims, avg_place, wins}) {
 
 function LeaderboardWolt() {
 
-    const leaderboard_id = new URLSearchParams(useLocation().search).get('id');
+    // const leaderboard_id = new URLSearchParams(useLocation().search).get('id');
+    const leaderboard_id = '566518932345741312'
 
     const [leaderboard, setLeaderboard] = useState(null)
     const [page, setPage] = useState([0, 10])
