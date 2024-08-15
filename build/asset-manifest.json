@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leaderboards/build/static/css/main.a5efd4fe.css",
-    "main.js": "/leaderboards/build/static/js/main.c280e462.js",
+    "main.js": "/leaderboards/build/static/js/main.1f5cc4b9.js",
     "static/js/453.98276a77.chunk.js": "/leaderboards/build/static/js/453.98276a77.chunk.js",
     "static/media/reddysh_royale_background.png": "/leaderboards/build/static/media/reddysh_royale_background.84434ba45ecdd7c68360.png",
     "static/media/IMPACT.TTF": "/leaderboards/build/static/media/IMPACT.393c8a0b905e3208112c.TTF",
@@ -11,11 +11,11 @@
     "static/media/OmnesBlack.ttf": "/leaderboards/build/static/media/OmnesBlack.c4d8a67bd6359132ef90.ttf",
     "index.html": "/leaderboards/build/index.html",
     "main.a5efd4fe.css.map": "/leaderboards/build/static/css/main.a5efd4fe.css.map",
-    "main.c280e462.js.map": "/leaderboards/build/static/js/main.c280e462.js.map",
+    "main.1f5cc4b9.js.map": "/leaderboards/build/static/js/main.1f5cc4b9.js.map",
     "453.98276a77.chunk.js.map": "/leaderboards/build/static/js/453.98276a77.chunk.js.map"
   },
   "entrypoints": [
     "/leaderboards/build/static/css/main.a5efd4fe.css",
-    "/leaderboards/build/static/js/main.c280e462.js"
+    "/leaderboards/build/static/js/main.1f5cc4b9.js"
   ]
 }
