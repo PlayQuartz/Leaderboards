@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Eurostile';
+    src: url('Eurostile.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body{
     padding: 0;
     margin: 0;
@@ -352,6 +359,134 @@ html, body{
             }
         }
 
+    }
+
+}
+
+.stizo_cup{
+
+    .leaderboard_table{
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        top: 166px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .leaderboard_container{
+        width: 1920px;
+        height: 1080px;
+        background-image: url("stizo_cup_background.png");
+    
+    }
+
+    .row_container{
+
+        display: flex;
+        gap: 15px;
+        color: white;
+        box-shadow: inset 0 0 0 5px white;
+    
+        .rank_container{
+    
+            height: 62px;
+            width: 90px;
+
+            margin-left: 5px;   
+            background-color: transparent; 
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 26px;
+            font-family: 'Eurostile';
+
+        }
+
+        .name_container{
+    
+            height: 58px;
+            width: 579px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            background-color: transparent; 
+
+            font-family: 'Eurostile';
+            font-size: 26px;
+        }
+    
+        .info_box{
+            height: 58px;
+            width: 118.99px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent; 
+    
+            font-family: 'Eurostile';
+            font-size: 26px;
+            color: white;
+        }
+    }
+
+    .header_container{
+
+        display: flex;
+        gap: 15px;
+        box-shadow: inset 0 0 0 5px white;
+        background-color: white;        
+
+        .rank_header{
+            width: 90px;
+            height: 62px;
+
+            margin-left: 5px;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+    
+            color: black;
+            font-family: 'Eurostile';
+        }
+
+        .name_header{
+            width: 579px;
+            height: 62px;
+                
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+    
+            color: black;
+            font-family: 'Eurostile';
+        }
+    
+        .info_header{
+            width: 118.99px;
+            height: 62px;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            color: black;
+            font-family: 'Eurostile';
+        }
+    
     }
 
 }
