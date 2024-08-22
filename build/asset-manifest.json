@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/leaderboards/build/static/css/main.a5efd4fe.css",
-    "main.js": "/leaderboards/build/static/js/main.1f5cc4b9.js",
+    "main.css": "/leaderboards/build/static/css/main.323296ba.css",
+    "main.js": "/leaderboards/build/static/js/main.dd728e3e.js",
     "static/js/453.98276a77.chunk.js": "/leaderboards/build/static/js/453.98276a77.chunk.js",
+    "static/media/stizo_cup_background.png": "/leaderboards/build/static/media/stizo_cup_background.9234c90f81c49d4105d3.png",
     "static/media/reddysh_royale_background.png": "/leaderboards/build/static/media/reddysh_royale_background.84434ba45ecdd7c68360.png",
     "static/media/IMPACT.TTF": "/leaderboards/build/static/media/IMPACT.393c8a0b905e3208112c.TTF",
     "static/media/leaderboard_background.png": "/leaderboards/build/static/media/leaderboard_background.6d0bcb66fe9829c326ac.png",
     "static/media/OmnesSemiBold.ttf": "/leaderboards/build/static/media/OmnesSemiBold.d9e74f703b27c9c45d13.ttf",
     "static/media/wolt_character.png": "/leaderboards/build/static/media/wolt_character.749771f67862b91fb4db.png",
     "static/media/OmnesBlack.ttf": "/leaderboards/build/static/media/OmnesBlack.c4d8a67bd6359132ef90.ttf",
+    "static/media/Eurostile.otf": "/leaderboards/build/static/media/Eurostile.5af602eec7a5fddc3fd4.otf",
     "index.html": "/leaderboards/build/index.html",
-    "main.a5efd4fe.css.map": "/leaderboards/build/static/css/main.a5efd4fe.css.map",
-    "main.1f5cc4b9.js.map": "/leaderboards/build/static/js/main.1f5cc4b9.js.map",
+    "main.323296ba.css.map": "/leaderboards/build/static/css/main.323296ba.css.map",
+    "main.dd728e3e.js.map": "/leaderboards/build/static/js/main.dd728e3e.js.map",
     "453.98276a77.chunk.js.map": "/leaderboards/build/static/js/453.98276a77.chunk.js.map"
   },
   "entrypoints": [
-    "/leaderboards/build/static/css/main.a5efd4fe.css",
-    "/leaderboards/build/static/js/main.1f5cc4b9.js"
+    "/leaderboards/build/static/css/main.323296ba.css",
+    "/leaderboards/build/static/js/main.dd728e3e.js"
   ]
 }
