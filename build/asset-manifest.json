@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leaderboards/build/static/css/main.323296ba.css",
-    "main.js": "/leaderboards/build/static/js/main.dd728e3e.js",
+    "main.css": "/leaderboards/build/static/css/main.410f984b.css",
+    "main.js": "/leaderboards/build/static/js/main.20f841bb.js",
     "static/js/453.98276a77.chunk.js": "/leaderboards/build/static/js/453.98276a77.chunk.js",
     "static/media/stizo_cup_background.png": "/leaderboards/build/static/media/stizo_cup_background.9234c90f81c49d4105d3.png",
     "static/media/reddysh_royale_background.png": "/leaderboards/build/static/media/reddysh_royale_background.84434ba45ecdd7c68360.png",
@@ -11,13 +11,14 @@
     "static/media/wolt_character.png": "/leaderboards/build/static/media/wolt_character.749771f67862b91fb4db.png",
     "static/media/OmnesBlack.ttf": "/leaderboards/build/static/media/OmnesBlack.c4d8a67bd6359132ef90.ttf",
     "static/media/Eurostile.otf": "/leaderboards/build/static/media/Eurostile.5af602eec7a5fddc3fd4.otf",
+    "static/media/good_times.OTF": "/leaderboards/build/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/leaderboards/build/index.html",
-    "main.323296ba.css.map": "/leaderboards/build/static/css/main.323296ba.css.map",
-    "main.dd728e3e.js.map": "/leaderboards/build/static/js/main.dd728e3e.js.map",
+    "main.410f984b.css.map": "/leaderboards/build/static/css/main.410f984b.css.map",
+    "main.20f841bb.js.map": "/leaderboards/build/static/js/main.20f841bb.js.map",
     "453.98276a77.chunk.js.map": "/leaderboards/build/static/js/453.98276a77.chunk.js.map"
   },
   "entrypoints": [
-    "/leaderboards/build/static/css/main.323296ba.css",
-    "/leaderboards/build/static/js/main.dd728e3e.js"
+    "/leaderboards/build/static/css/main.410f984b.css",
+    "/leaderboards/build/static/js/main.20f841bb.js"
   ]
 }
