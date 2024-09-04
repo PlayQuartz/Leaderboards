@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Routes  } from 'react-router-dom';
 import LeaderboardWolt from './LeaderboardWolt';
 import LeaderboardReddyshRoyale from './LeaderboardReddyshRoyale'
 import LeaderboardStizoCup from './LeaderboardStizoCup'
+import LeaderboardTCS from './LeaderboardTCS';
 import TwitchPolls from './TwitchPolls';
 
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/reddysh_royale_leaderboard" element={<LeaderboardReddyshRoyale />} />
           <Route path="/stizo_cup_leaderboard" element={<LeaderboardStizoCup />} />
           <Route path="/twitch_polls" element={<TwitchPolls />} />
+          <Route path="/tcs_leaderboard" element={<LeaderboardTCS />} />
         </Routes >
       </Router>
     );
