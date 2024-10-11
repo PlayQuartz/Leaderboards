@@ -23,23 +23,35 @@ function LeaderboardTCS() {
     const [page, setPage] = useState([0, 8])
 
     useEffect(() => {
-        fetch("https://api.wls.gg/v5/leaderboards/"+leaderboard_id)
-        .then(response => {return response.json()})
-        .then(data => {
-            let leaderboard_list = []
-            for (let team in data.teams){
-                leaderboard_list.push({
-                    teamname: Object.values(data.teams[team].members).map(member => member.name).join(' - '),
-                    elims: Object.values(data.teams[team].sessions).map(session => session.kills).reduce((acc, curr) => acc + curr, 0),
-                    avg_place: Object.values(data.teams[team].sessions).map(session => session.place).reduce((acc, curr, _, arr) => acc + curr / arr.length, 0),
-                    wins: Object.values(data.teams[team].sessions).map(session => session.place).reduce((acc, curr) => acc + (curr === 1 ? 1 : 0), 0),
-                    place: data.teams[team].place,
-                    points: data.teams[team].points
-                })
-            }
-            console.log(data)
-            setLeaderboard(leaderboard_list)
-        })
+
+        const fetch_data = () => {
+
+            fetch("https://api.wls.gg/v5/leaderboards/"+leaderboard_id)
+            .then(response => {return response.json()})
+            .then(data => {
+                let leaderboard_list = []
+                for (let team in data.teams){
+                    leaderboard_list.push({
+                        teamname: Object.values(data.teams[team].members).map(member => member.name).join(' - '),
+                        elims: Object.values(data.teams[team].sessions).map(session => session.kills).reduce((acc, curr) => acc + curr, 0),
+                        avg_place: Object.values(data.teams[team].sessions).map(session => session.place).reduce((acc, curr, _, arr) => acc + curr / arr.length, 0),
+                        wins: Object.values(data.teams[team].sessions).map(session => session.place).reduce((acc, curr) => acc + (curr === 1 ? 1 : 0), 0),
+                        place: data.teams[team].place,
+                        points: data.teams[team].points
+                    })
+                }
+                console.log(data)
+                setLeaderboard(leaderboard_list)
+            })
+
+        }
+
+
+        fetch_data()
+        const interval = setInterval(fetch_data, 1000)
+        return () => clearInterval(interval)
+
+
     }, [])
 
     function nextPage(){
