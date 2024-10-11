@@ -32,7 +32,7 @@ function LeaderboardTCS() {
                 let leaderboard_list = []
                 for (let team in data.teams){
                     leaderboard_list.push({
-                        teamname: Object.values(data.teams[team].members).map(member => member.name).join(' - '),
+                        teamname: Object.values(data.teams[team].members).map(member => member.name).sort().join(' - '),
                         elims: Object.values(data.teams[team].sessions).map(session => session.kills).reduce((acc, curr) => acc + curr, 0),
                         avg_place: Object.values(data.teams[team].sessions).map(session => session.place).reduce((acc, curr, _, arr) => acc + curr / arr.length, 0),
                         wins: Object.values(data.teams[team].sessions).map(session => session.place).reduce((acc, curr) => acc + (curr === 1 ? 1 : 0), 0),
