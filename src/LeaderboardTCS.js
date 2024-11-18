@@ -40,7 +40,6 @@ function LeaderboardTCS() {
                         points: data.teams[team].points
                     })
                 }
-                console.log(data)
                 setLeaderboard(leaderboard_list)
             })
 
