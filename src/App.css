@@ -795,14 +795,21 @@ html, body {
   font-size: 20px;
   width: 100%;
   display: flex;
+  font-weight: 900;
+  color: black;
   justify-content: center;
 }
 .deutschland .row_container .info_box {
   background-color: transparent;
   font-family: "Albert Sans";
-  color: #110737;
+  color: black;
   font-size: 38px;
   width: auto;
+  font-weight: 900;
+}
+.deutschland .row_container .info_box.points {
+  color: #dd0a57;
+  font-weight: 900;
 }
 .deutschland .row_container .info {
   display: flex;
@@ -816,6 +823,7 @@ html, body {
   font-family: "Albert Sans";
   color: #110737;
   font-size: 38px;
+  font-weight: 900;
   width: auto;
 }
 .deutschland .header_container {

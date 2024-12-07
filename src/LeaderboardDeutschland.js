@@ -7,7 +7,7 @@ function Row({rank, teamname, points, elims, avg_place, wins}) {
         <div className='row_container'>
             <div className='rank_container'>#{rank}</div>
             <div className='name_container'>{teamname.toUpperCase()}</div> 
-            <div className='info_box'>{points}</div>  
+            <div className='info_box points'>{points}</div>  
             <div className='info_box'>{wins}</div>  
         </div>
     )

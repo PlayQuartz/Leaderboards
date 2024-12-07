@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leaderboards/build/static/css/main.e2214b5f.css",
-    "main.js": "/leaderboards/build/static/js/main.a9ca5ad4.js",
+    "main.css": "/leaderboards/build/static/css/main.0c42c37d.css",
+    "main.js": "/leaderboards/build/static/js/main.e0fff65e.js",
     "static/js/453.98276a77.chunk.js": "/leaderboards/build/static/js/453.98276a77.chunk.js",
     "static/media/stizo_cup_background.png": "/leaderboards/build/static/media/stizo_cup_background.9234c90f81c49d4105d3.png",
     "static/media/leaderboard.png": "/leaderboards/build/static/media/leaderboard.b658908961e1c6214b70.png",
@@ -42,12 +42,12 @@
     "static/media/row8.png": "/leaderboards/build/static/media/row8.92255c6e13197be9332d.png",
     "static/media/row7.png": "/leaderboards/build/static/media/row7.2702485b7bbbd0503830.png",
     "index.html": "/leaderboards/build/index.html",
-    "main.e2214b5f.css.map": "/leaderboards/build/static/css/main.e2214b5f.css.map",
-    "main.a9ca5ad4.js.map": "/leaderboards/build/static/js/main.a9ca5ad4.js.map",
+    "main.0c42c37d.css.map": "/leaderboards/build/static/css/main.0c42c37d.css.map",
+    "main.e0fff65e.js.map": "/leaderboards/build/static/js/main.e0fff65e.js.map",
     "453.98276a77.chunk.js.map": "/leaderboards/build/static/js/453.98276a77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2214b5f.css",
-    "static/js/main.a9ca5ad4.js"
+    "static/css/main.0c42c37d.css",
+    "static/js/main.e0fff65e.js"
   ]
 }
