@@ -7,7 +7,7 @@ import LeaderboardStizoCup from './LeaderboardStizoCup'
 import LeaderboardTCS from './LeaderboardTCS';
 import LeaderboardDoigby from './LeaderboardDoigby';
 import TwitchPolls from './TwitchPolls';
-
+import LeaderboardDeutschland from './LeaderboardDeutschland';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
           <Route path="/twitch_polls" element={<TwitchPolls />} />
           <Route path="/tcs_leaderboard" element={<LeaderboardTCS />} />
           <Route path="/doigby_leaderboard" element={<LeaderboardDoigby />} />
+          <Route path="/deutschland_leaderboard" element={<LeaderboardDeutschland />} />
         </Routes >
       </Router>
     );

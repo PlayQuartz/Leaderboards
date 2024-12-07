@@ -688,4 +688,180 @@ html, body {
   text-align: center;
 }
 
+.deutschland {
+  font-family: "Albert Sans";
+}
+.deutschland .leaderboard_table {
+  position: relative;
+  height: fit-content;
+  width: min-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(1) {
+  background-image: url("drow1.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: -0.2s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(2) {
+  background-image: url("drow2.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(3) {
+  background-image: url("drow3.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(4) {
+  background-image: url("drow4.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(5) {
+  background-image: url("drow5.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(6) {
+  background-image: url("drow6.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(7) {
+  background-image: url("drow7.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(8) {
+  background-image: url("drow8.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(9) {
+  background-image: url("drow9.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.deutschland .leaderboard_table.table1 .row_container:nth-child(10) {
+  background-image: url("drow10.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.deutschland .leaderbaord_page {
+  display: flex;
+  gap: 7.5px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.deutschland .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: black;
+  background-image: none;
+  background-size: contain;
+  background-image: url("d_leaderboard.png");
+}
+.deutschland .row_container {
+  align-items: center;
+  gap: 0px;
+  opacity: 0;
+  font-family: "Albert Sans";
+  color: #110737;
+  background-size: contain;
+  width: 1563px;
+  height: 66px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 341px 390px 350px 350px;
+}
+.deutschland .row_container .rank_container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #dd0a57;
+}
+.deutschland .row_container .name_container {
+  font-family: "Albert Sans";
+  background-color: transparent;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.deutschland .row_container .info_box {
+  background-color: transparent;
+  font-family: "Albert Sans";
+  color: #110737;
+  font-size: 38px;
+  width: auto;
+}
+.deutschland .row_container .info {
+  display: flex;
+  flex-grow: 1;
+  width: max-content;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.deutschland .row_container .info .info_box {
+  background-color: transparent;
+  font-family: "Albert Sans";
+  color: #110737;
+  font-size: 38px;
+  width: auto;
+}
+.deutschland .header_container {
+  display: flex;
+  width: 597px;
+  box-shadow: none;
+  color: #e194ff;
+  font-size: 16px;
+  height: 25px;
+  gap: 0;
+  font-family: "Albert Sans";
+  width: 597px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
+}
+.deutschland .header_container .rank_header {
+  min-width: 117px;
+  height: 20px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deutschland .header_container .name_header {
+  height: 25px;
+  width: 250px;
+  font-size: 16px;
+  color: #e194ff;
+  font-family: "Albert Sans";
+  box-shadow: none;
+  border-radius: 0;
+}
+.deutschland .header_container .info_header {
+  height: 25px;
+  background-color: transparent;
+  font-family: "Albert Sans";
+  color: #e194ff;
+  font-size: 16px;
+  width: auto;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 /*# sourceMappingURL=App.css.map */
