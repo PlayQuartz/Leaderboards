@@ -1,0 +1,119 @@
+.leaderboard_deutsch{
+
+    font-family: 'Albert Sans';
+
+    .leaderboard_table{
+        position: relative;
+        height: fit-content;
+        width: min-content;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 20px;
+        
+        @for $i from 1 through 10 {
+            .row_container:nth-child(#{$i}) {
+                background-image: url("./asset/row#{($i )}.png");
+                animation: trans 0.4s ease-in forwards;
+                animation-delay: #{($i - 2) * 0.2}s;
+            }
+        }
+    }
+
+    .leaderboard_container{
+        width: 1920px;
+        height: 1080px;
+        background-color: black;
+        background-image: none;
+        background-size: contain;
+        background-image: url("./asset/background.png");
+
+        .leaderbaord_page{
+            display: flex;
+            gap: 7.5px;
+            height: 100%;
+    
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+    
+            .row_container{
+    
+    
+                align-items: center;
+                gap: 0px;
+                font-family: 'Albert Sans';
+                color: #110737;
+                background-size: contain;
+        
+        
+                width: 1563px;
+                height: 66px;
+                display: grid;
+                justify-content: space-between;
+                grid-template-columns: 341px 390px 350px 350px;
+        
+                .rank_container{
+        
+                    background-color: transparent;
+                    display: flex;
+                    justify-content: center;
+                    font-size: 48px;
+                    font-weight: 700;
+                    color: #dd0a57;
+        
+                }
+        
+                .name_container{
+                    font-family: 'Albert Sans';
+                    background-color: transparent;
+                    font-size: 20px;
+                    width: 100%;
+                    display: flex;
+                    font-weight: 900;
+                    color: black;
+                    justify-content: center;
+                }
+            
+                .info_box{
+                    background-color: transparent;
+                    font-family: 'Albert Sans';
+                    color: black;
+                    font-size: 38px;
+                    width: auto;
+                    font-weight: 900;
+        
+                    &.points{
+                        color: #dd0a57;
+                        font-weight: 900;
+                    }
+                }
+        
+                .info{
+                    display: flex;
+                    flex-grow: 1;
+                    width: max-content;
+                    gap: 5px;
+                    justify-content: space-evenly;
+        
+        
+        
+                    .info_box{
+                        background-color: transparent;
+                        font-family: 'Albert Sans';
+                        color: #110737;
+                        font-size: 38px;
+                        font-weight: 900;
+                        width: auto;
+        
+                        
+                    }
+                }
+        
+        
+            }
+        }
+    }
+}

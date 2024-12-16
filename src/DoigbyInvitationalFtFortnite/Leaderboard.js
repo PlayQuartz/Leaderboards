@@ -56,7 +56,7 @@ function Leaderboard() {
     }
     
     return (
-        <div className='leaderboard'> 
+        <div className='leaderboard_doigby'> 
             <div key={page.toString()} className='leaderboard_container'>
                 <div className='leaderbaord_page'>
                     <div className='leaderboard_table table1'>

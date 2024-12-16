@@ -18,10 +18,10 @@
     opacity: 1;
   }
 }
-.leaderboard {
+.leaderboard_doigby {
   font-family: "DrukMedium";
 }
-.leaderboard .leaderboard_container {
+.leaderboard_doigby .leaderboard_container {
   width: 1920px;
   height: 1080px;
   background-color: black;
@@ -29,7 +29,7 @@
   background-size: contain;
   background-image: url("./asset/background.png");
 }
-.leaderboard .leaderboard_container .leaderbaord_page {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@
   height: 100%;
   width: 100%;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table {
   position: relative;
   height: fit-content;
   width: min-content;
@@ -49,82 +49,82 @@
   margin-top: 85px;
   height: 572.5px;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(2) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(2) {
   background-image: url("asset/row1.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(3) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(3) {
   background-image: url("asset/row2.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.2s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(4) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(4) {
   background-image: url("asset/row3.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.4s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(5) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(5) {
   background-image: url("asset/row4.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.6s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(6) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(6) {
   background-image: url("asset/row5.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.8s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(2) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(2) {
   background-image: url("asset/row6.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.2s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(3) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(3) {
   background-image: url("asset/row7.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.4s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(4) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(4) {
   background-image: url("asset/row8.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.6s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(5) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(5) {
   background-image: url("asset/row9.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.8s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(6) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(6) {
   background-image: url("asset/row10.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 1s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(2) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(2) {
   background-image: url("asset/row11.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.4s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(3) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(3) {
   background-image: url("asset/row12.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.6s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(4) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(4) {
   background-image: url("asset/row13.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 0.8s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(5) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(5) {
   background-image: url("asset/row14.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 1s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(6) {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(6) {
   background-image: url("asset/row15.png");
   animation: transition 0.4s ease-in forwards;
   animation-delay: 1.2s;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .header_container {
   display: flex;
   width: 597px;
   box-shadow: none;
@@ -138,7 +138,7 @@
   align-items: center;
   grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .rank_header {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .rank_header {
   min-width: 117px;
   height: 20px;
   box-shadow: none;
@@ -146,7 +146,7 @@
   justify-content: center;
   align-items: center;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .name_header {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .name_header {
   height: 25px;
   width: 250px;
   font-size: 16px;
@@ -155,7 +155,7 @@
   box-shadow: none;
   border-radius: 0;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .info_header {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .info_header {
   height: 25px;
   background-color: transparent;
   font-family: "GroldMedium";
@@ -169,7 +169,7 @@
   justify-content: center;
   text-align: center;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .row_container {
   align-items: center;
   gap: 0px;
   border-radius: 5px;
@@ -182,20 +182,20 @@
   display: grid;
   grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .rank_container {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .rank_container {
   min-width: 117px;
   background-color: transparent;
   display: flex;
   justify-content: center;
   font-size: 48px;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .name_container {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .name_container {
   background-color: transparent;
   width: 250px;
   font-family: "GroldMedium";
   font-size: 20px;
 }
-.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .info_box {
+.leaderboard_doigby .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .info_box {
   background-color: transparent;
   font-family: "DrukMedium";
   color: #110737;

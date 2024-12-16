@@ -1,0 +1,139 @@
+.leaderboard_deutsch {
+  font-family: "Albert Sans";
+}
+.leaderboard_deutsch .leaderboard_table {
+  position: relative;
+  height: fit-content;
+  width: min-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(1) {
+  background-image: url("./asset/row1.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: -0.2s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(2) {
+  background-image: url("./asset/row2.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(3) {
+  background-image: url("./asset/row3.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(4) {
+  background-image: url("./asset/row4.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(5) {
+  background-image: url("./asset/row5.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(6) {
+  background-image: url("./asset/row6.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(7) {
+  background-image: url("./asset/row7.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(8) {
+  background-image: url("./asset/row8.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(9) {
+  background-image: url("./asset/row9.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_deutsch .leaderboard_table .row_container:nth-child(10) {
+  background-image: url("./asset/row10.png");
+  animation: trans 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.leaderboard_deutsch .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: black;
+  background-image: none;
+  background-size: contain;
+  background-image: url("./asset/background.png");
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page {
+  display: flex;
+  gap: 7.5px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container {
+  align-items: center;
+  gap: 0px;
+  font-family: "Albert Sans";
+  color: #110737;
+  background-size: contain;
+  width: 1563px;
+  height: 66px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 341px 390px 350px 350px;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container .rank_container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #dd0a57;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container .name_container {
+  font-family: "Albert Sans";
+  background-color: transparent;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  font-weight: 900;
+  color: black;
+  justify-content: center;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container .info_box {
+  background-color: transparent;
+  font-family: "Albert Sans";
+  color: black;
+  font-size: 38px;
+  width: auto;
+  font-weight: 900;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container .info_box.points {
+  color: #dd0a57;
+  font-weight: 900;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container .info {
+  display: flex;
+  flex-grow: 1;
+  width: max-content;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.leaderboard_deutsch .leaderboard_container .leaderbaord_page .row_container .info .info_box {
+  background-color: transparent;
+  font-family: "Albert Sans";
+  color: #110737;
+  font-size: 38px;
+  font-weight: 900;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
