@@ -1,76 +1,10 @@
-
 @font-face {
     font-family: 'GoodTimes';
-    src: url('good_times.OTF');
+    src: url('font/good_times.OTF');
     font-weight: 800;
     font-style: normal;
 }
 
-html, body{
-    padding: 0;
-    margin: 0;
-    width: 1920px;
-    height: 1080px;
-    user-select: none;
-}
-
-
-
-.twitch_polls{
-
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-
-    font-family: 'IMPACT';
-
-    .container{
-        position: absolute;
-        right: 30px;
-        top: 114px;
-        width: fit-content;
-        min-width: 300px;
-        padding: 25px;
-        background-color: #ababdf;
-
-        .question{
-            width: 100%;
-            font-family: 'IMPACT';
-            font-size: 30px;
-            color: white;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            margin-bottom: 25px;
-        }
-
-        .choices{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-
-            .choice{
-                display: flex;
-
-                padding: 10px;
-                background-color: white;
-                border-radius: 20px;
-                color: #ababdf;
-
-                justify-content: space-between;
-
-                .option{
-
-                }
-
-            }
-        }
-
-    }
-
-}
 
 .tcs{
 
