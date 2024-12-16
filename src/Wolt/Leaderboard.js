@@ -1,6 +1,5 @@
-import './App.css';
+import './style.css';
 import React, {useState, useEffect} from "react"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 function Row({rank, teamname, points, elims, avg_place, wins}) {
