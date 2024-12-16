@@ -1,4 +1,4 @@
-import './App.css';
+import './style.css';
 import React, {useState, useEffect} from "react"
 import { useLocation } from 'react-router-dom';
 
@@ -51,7 +51,7 @@ function LeaderboardReddyshRoyale() {
     }
     
     return (
-        <div className='stizo_cup'> 
+        <div className='leaderboard_stizo'> 
             <div className='leaderboard_container'>
                 <div className='leaderboard_table'>
                     <div className='header_container'>
