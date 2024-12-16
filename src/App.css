@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "IMPACT";
-  src: url("IMPACT.TTF") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "GoodTimes";
   src: url("good_times.OTF");
   font-weight: 800;
@@ -16,105 +10,6 @@ html, body {
   width: 1920px;
   height: 1080px;
   user-select: none;
-}
-
-.reddysh_royale .leaderboard_table {
-  position: absolute;
-  width: 100%;
-  height: fit-content;
-  top: 264px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-.reddysh_royale .leaderboard_container {
-  width: 1920px;
-  height: 1080px;
-  background-image: url("reddysh_royale_background.png");
-}
-.reddysh_royale .row_container {
-  display: flex;
-  gap: 15px;
-}
-.reddysh_royale .row_container .rank_container {
-  height: 58px;
-  width: 69px;
-  margin-left: 5px;
-  background-color: white;
-  border-radius: 20px;
-  color: #c15c6f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 26px;
-  font-family: "OmnesBlack";
-}
-.reddysh_royale .row_container .name_container {
-  height: 58px;
-  width: 600px;
-  background-color: white;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  font-family: "IMPACT";
-  color: #9ed2d8;
-  font-size: 26px;
-}
-.reddysh_royale .row_container .info_box {
-  height: 58px;
-  width: 118.99px;
-  background-color: white;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "OmnesBlack";
-  font-size: 26px;
-  color: #9ed2d8;
-}
-.reddysh_royale .header_container {
-  display: flex;
-  gap: 15px;
-  box-shadow: none;
-  background-color: #c15c6f;
-  border-radius: 20px;
-}
-.reddysh_royale .header_container .rank_header {
-  width: 69px;
-  height: 41.03px;
-  box-shadow: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 36px;
-  color: white;
-  font-family: "IMPACT";
-}
-.reddysh_royale .header_container .name_header {
-  width: 600px;
-  height: 41.03px;
-  box-shadow: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 36px;
-  color: white;
-  font-family: "IMPACT";
-}
-.reddysh_royale .header_container .info_header {
-  width: 118.99px;
-  height: 41.03px;
-  box-shadow: none;
-  border-radius: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: "IMPACT";
 }
 
 .twitch_polls {
