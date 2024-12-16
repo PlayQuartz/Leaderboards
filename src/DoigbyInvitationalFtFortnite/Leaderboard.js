@@ -1,4 +1,4 @@
-import './App.css';
+import './style.css';
 import React, {useState, useEffect} from "react"
 import { useLocation } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ function Row({rank, teamname, points, elims, avg_place, wins}) {
     )
 }
 
-function LeaderboardDoigby() {
+function Leaderboard() {
 
     const leaderboard_id = new URLSearchParams(useLocation().search).get('id');
 
@@ -23,9 +23,7 @@ function LeaderboardDoigby() {
     const [page, setPage] = useState([0, 15])
 
     useEffect(() => {
-
         const fetch_data = () => {
-
             fetch("https://api.wls.gg/v5/leaderboards/"+leaderboard_id)
             .then(response => {return response.json()})
             .then(data => {
@@ -44,13 +42,9 @@ function LeaderboardDoigby() {
             })
 
         }
-
-
         fetch_data()
         const interval = setInterval(fetch_data, 1000)
         return () => clearInterval(interval)
-
-
     }, [])
 
     function nextPage(){
@@ -62,8 +56,8 @@ function LeaderboardDoigby() {
     }
     
     return (
-        <div className='doigby'> 
-            <div  key={page.toString()} className='leaderboard_container'>
+        <div className='leaderboard'> 
+            <div key={page.toString()} className='leaderboard_container'>
                 <div className='leaderbaord_page'>
                     <div className='leaderboard_table table1'>
                         <div className='header_container'>
@@ -105,4 +99,4 @@ function LeaderboardDoigby() {
     )
 }
 
-export default LeaderboardDoigby
+export default Leaderboard

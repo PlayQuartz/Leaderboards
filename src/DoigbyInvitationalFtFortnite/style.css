@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "DrukMedium";
+  src: url("./font/DrukMedium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GroldMedium";
+  src: url("./font/GroldMedium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.leaderboard {
+  font-family: "DrukMedium";
+}
+.leaderboard .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: black;
+  background-image: none;
+  background-size: contain;
+  background-image: url("./asset/background.png");
+}
+.leaderboard .leaderboard_container .leaderbaord_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  height: 100%;
+  width: 100%;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table {
+  position: relative;
+  height: fit-content;
+  width: min-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 7.5px;
+  margin-top: 85px;
+  height: 572.5px;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(2) {
+  background-image: url("asset/row1.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(3) {
+  background-image: url("asset/row2.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(4) {
+  background-image: url("asset/row3.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(5) {
+  background-image: url("asset/row4.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(6) {
+  background-image: url("asset/row5.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(2) {
+  background-image: url("asset/row6.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(3) {
+  background-image: url("asset/row7.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(4) {
+  background-image: url("asset/row8.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(5) {
+  background-image: url("asset/row9.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(6) {
+  background-image: url("asset/row10.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(2) {
+  background-image: url("asset/row11.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(3) {
+  background-image: url("asset/row12.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(4) {
+  background-image: url("asset/row13.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(5) {
+  background-image: url("asset/row14.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(6) {
+  background-image: url("asset/row15.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container {
+  display: flex;
+  width: 597px;
+  box-shadow: none;
+  color: #e194ff;
+  font-size: 16px;
+  height: 25px;
+  gap: 0;
+  font-family: "GroldMedium";
+  width: 597px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .rank_header {
+  min-width: 117px;
+  height: 20px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .name_header {
+  height: 25px;
+  width: 250px;
+  font-size: 16px;
+  color: #e194ff;
+  font-family: "GroldMedium";
+  box-shadow: none;
+  border-radius: 0;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .info_header {
+  height: 25px;
+  background-color: transparent;
+  font-family: "GroldMedium";
+  color: #e194ff;
+  font-size: 16px;
+  width: auto;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container {
+  align-items: center;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0;
+  font-family: "DrukMedium";
+  color: #110737;
+  background-size: contain;
+  width: 597px;
+  height: 102px;
+  display: grid;
+  grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .rank_container {
+  min-width: 117px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .name_container {
+  background-color: transparent;
+  width: 250px;
+  font-family: "GroldMedium";
+  font-size: 20px;
+}
+.leaderboard .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .info_box {
+  background-color: transparent;
+  font-family: "DrukMedium";
+  color: #110737;
+  font-size: 38px;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
