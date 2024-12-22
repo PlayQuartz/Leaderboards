@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "shapiro";
+  src: url("./font/shapiro.OTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "beniregular";
+  src: url("./font/BENIREGULAR.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.leaderboard_battez_vous {
+  font-family: "shapiro";
+}
+.leaderboard_battez_vous .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: black;
+  background-image: none;
+  background-size: contain;
+  background-image: url("./asset/background.png");
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  height: 100%;
+  width: 100%;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table {
+  position: relative;
+  height: fit-content;
+  width: min-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 7.5px;
+  margin-top: 85px;
+  height: 728.5px;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(2) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(3) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(4) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(5) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(6) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(7) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(8) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(2) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(3) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(4) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(5) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(6) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(7) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(8) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(2) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(3) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(4) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(5) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(6) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(7) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(8) {
+  background-image: url("asset/row.png");
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .header_container {
+  display: flex;
+  box-shadow: none;
+  color: #444445;
+  font-size: 12px;
+  height: 25px;
+  gap: 0;
+  font-family: "shapiro";
+  width: 614px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .rank_header {
+  min-width: 117px;
+  height: 20px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .name_header {
+  height: 25px;
+  width: 250px;
+  font-size: 12px;
+  color: #444445;
+  font-family: "shapiro";
+  box-shadow: none;
+  border-radius: 0;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .info_header {
+  height: 25px;
+  background-color: transparent;
+  font-family: "shapiro";
+  color: #444445;
+  font-size: 12px;
+  width: auto;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .row_container {
+  align-items: center;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0;
+  font-family: "beniregular";
+  color: #dfdfdf;
+  background-size: contain;
+  width: 614px;
+  height: 93px;
+  display: grid;
+  grid-template-columns: 117px 250px repeat(4, 1fr) 25px;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .rank_container {
+  min-width: 117px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .name_container {
+  background-color: transparent;
+  width: 250px;
+  font-family: "shapiro";
+  color: #ff201a;
+  font-size: 15px;
+}
+.leaderboard_battez_vous .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .info_box {
+  background-color: transparent;
+  font-family: "beniregular";
+  font-size: 48px;
+  color: #dfdfdf;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

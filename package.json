@@ -2,7 +2,7 @@
   "name": "wolt_overlays",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://playquartz.github.io/Leaderboards/build",
+  "homepage": "https://playquartz.github.io/Leaderboards/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
