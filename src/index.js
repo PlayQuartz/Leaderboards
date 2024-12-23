@@ -10,6 +10,7 @@ import Wolt from './Wolt/Leaderboard.js'
 import ReddyshRoyale from './ReddyshRoyale/Leaderboard.js'
 import TCSeSports from './TCSeSports/Leaderboard.js'
 import BattezVous from './BattezVous/Leaderboard.js'
+import HavokShowdown from './HavokShowdown/Leaderboard.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
           <Route path="/doigby_leaderboard" element={<DoigbyInvitationalFtFortnite />} />
           <Route path="/battez_vous" element={<BattezVous />} />
           <Route path="/deutschland_leaderboard" element={<DeutschlandCreatorTurnier />} />
+          <Route path="/havok_showdown" element={<HavokShowdown />} />
         </Routes >
       </Router>
   </React.StrictMode>

@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("./font/Helvetica.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Zuume";
+  src: url("./font/Zuume.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.leaderboard_havok {
+  font-family: "shapiro";
+}
+.leaderboard_havok .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: black;
+  background-image: none;
+  background-size: contain;
+  background-image: url("./asset/background.png");
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table {
+  position: relative;
+  height: fit-content;
+  width: min-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 7.5px;
+  margin-top: 350px;
+  height: 645px;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(2) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: -0.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(3) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(4) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(5) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(6) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(7) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(8) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table1 .row_container:nth-child(9) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(2) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(3) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(4) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(5) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(6) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(7) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(8) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table2 .row_container:nth-child(9) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(2) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(3) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(4) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(5) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(6) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(7) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(8) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table3 .row_container:nth-child(9) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(2) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(3) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(4) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(5) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(6) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(7) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table.table4 .row_container:nth-child(8) {
+  background-color: #323232;
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .header_container {
+  display: flex;
+  box-shadow: none;
+  color: #000;
+  font-size: 12px;
+  height: 25px;
+  gap: 0;
+  font-family: "Helvetica";
+  width: 451px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 80px 200px repeat(4, 1fr) 15px;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .rank_header {
+  min-width: 80px;
+  height: 20px;
+  box-shadow: none;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .name_header {
+  height: 25px;
+  width: 200px;
+  font-size: 12px;
+  color: #000;
+  font-family: "Helvetica";
+  font-weight: 800;
+  box-shadow: none;
+  border-radius: 0;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .header_container .info_header {
+  height: 25px;
+  background-color: transparent;
+  font-family: "Helvetica";
+  color: #000;
+  font-weight: 800;
+  font-size: 8px;
+  width: auto;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .row_container {
+  align-items: center;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0;
+  font-family: "Zuume";
+  color: #dfdfdf;
+  background-size: contain;
+  width: 451px;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 80px 200px repeat(4, 1fr) 15px;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .rank_container {
+  min-width: 80px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .name_container {
+  background-color: transparent;
+  width: 200px;
+  font-family: "Helvetica";
+  font-weight: 800;
+  color: #E8BF91;
+  font-size: 15px;
+}
+.leaderboard_havok .leaderboard_container .leaderbaord_page .leaderboard_table .row_container .info_box {
+  background-color: transparent;
+  font-family: "Zuume";
+  font-size: 30px;
+  color: #dfdfdf;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
