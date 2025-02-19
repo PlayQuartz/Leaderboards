@@ -5,6 +5,15 @@
     font-style: normal;
 }
 
+@keyframes transition{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .leaderboard_stizo{
 
     .leaderboard_table{
@@ -18,6 +27,13 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
+
+        @for $i from 1 through 11 {
+            .row_container:nth-child(#{$i}) {
+                animation: transition 0.4s ease-in forwards;
+                animation-delay: #{($i) * 0.2}s;
+            }
+        }
     }
 
 
@@ -32,9 +48,14 @@
 
         display: flex;
         gap: 15px;
-        color: white;
-        box-shadow: inset 0 0 0 5px white;
+        color: black;
+        box-shadow: inset 0 0 0 5px black;
+        opacity: 0;
     
+
+
+
+
         .rank_container{
     
             height: 62px;
@@ -64,7 +85,8 @@
             background-color: transparent; 
 
             font-family: 'Eurostile';
-            font-size: 26px;
+            font-size: 20px;
+            text-align: center;
         }
     
         .info_box{
@@ -78,7 +100,7 @@
     
             font-family: 'Eurostile';
             font-size: 26px;
-            color: white;
+            color: black;
         }
     }
 
@@ -86,8 +108,8 @@
 
         display: flex;
         gap: 15px;
-        box-shadow: inset 0 0 0 5px white;
-        background-color: white;        
+        box-shadow: inset 0 0 0 5px black;
+        background-color: black;        
 
         .rank_header{
             width: 90px;
@@ -99,7 +121,7 @@
             align-items: center;
             gap: 36px;
     
-            color: black;
+            color: white;
             font-family: 'Eurostile';
         }
 
@@ -112,8 +134,8 @@
             justify-content: center;
             align-items: center;
             gap: 36px;
-    
-            color: black;
+            box-shadow: inset 0 0 0 4px black;
+            color: white;
             font-family: 'Eurostile';
         }
     
@@ -124,8 +146,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-    
-            color: black;
+            box-shadow: inset 0 0 0 4px black;
+            color: white;
             font-family: 'Eurostile';
         }
     

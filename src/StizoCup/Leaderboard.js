@@ -53,7 +53,7 @@ function LeaderboardReddyshRoyale() {
     return (
         <div className='leaderboard_stizo'> 
             <div className='leaderboard_container'>
-                <div className='leaderboard_table'>
+                <div key={page} className='leaderboard_table'>
                     <div className='header_container'>
                         <div className='rank_header' onClick={previousPage} >PLACE</div>
                         <div className='name_header'>ÉQUIPE</div>

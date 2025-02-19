@@ -4,6 +4,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .leaderboard_stizo .leaderboard_table {
   position: absolute;
   width: 100%;
@@ -15,6 +23,50 @@
   flex-direction: column;
   gap: 10px;
 }
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(1) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(2) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(3) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(4) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(5) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(6) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(7) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(8) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(9) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.8s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(10) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2s;
+}
+.leaderboard_stizo .leaderboard_table .row_container:nth-child(11) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2.2s;
+}
 .leaderboard_stizo .leaderboard_container {
   width: 1920px;
   height: 1080px;
@@ -23,8 +75,9 @@
 .leaderboard_stizo .row_container {
   display: flex;
   gap: 15px;
-  color: white;
-  box-shadow: inset 0 0 0 5px white;
+  color: black;
+  box-shadow: inset 0 0 0 5px black;
+  opacity: 0;
 }
 .leaderboard_stizo .row_container .rank_container {
   height: 62px;
@@ -46,7 +99,8 @@
   gap: 30px;
   background-color: transparent;
   font-family: "Eurostile";
-  font-size: 26px;
+  font-size: 20px;
+  text-align: center;
 }
 .leaderboard_stizo .row_container .info_box {
   height: 58px;
@@ -57,13 +111,13 @@
   background-color: transparent;
   font-family: "Eurostile";
   font-size: 26px;
-  color: white;
+  color: black;
 }
 .leaderboard_stizo .header_container {
   display: flex;
   gap: 15px;
-  box-shadow: inset 0 0 0 5px white;
-  background-color: white;
+  box-shadow: inset 0 0 0 5px black;
+  background-color: black;
 }
 .leaderboard_stizo .header_container .rank_header {
   width: 90px;
@@ -73,7 +127,7 @@
   justify-content: center;
   align-items: center;
   gap: 36px;
-  color: black;
+  color: white;
   font-family: "Eurostile";
 }
 .leaderboard_stizo .header_container .name_header {
@@ -83,7 +137,8 @@
   justify-content: center;
   align-items: center;
   gap: 36px;
-  color: black;
+  box-shadow: inset 0 0 0 4px black;
+  color: white;
   font-family: "Eurostile";
 }
 .leaderboard_stizo .header_container .info_header {
@@ -92,7 +147,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  box-shadow: inset 0 0 0 4px black;
+  color: white;
   font-family: "Eurostile";
 }
 
