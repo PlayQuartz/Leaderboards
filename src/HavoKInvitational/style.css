@@ -38,9 +38,58 @@
   background-color: transparent;
   background-image: none;
 }
+.havok-invitational .row_container:nth-child(0) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.havok-invitational .row_container:nth-child(1) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.havok-invitational .row_container:nth-child(2) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.havok-invitational .row_container:nth-child(3) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.havok-invitational .row_container:nth-child(4) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.havok-invitational .row_container:nth-child(5) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.havok-invitational .row_container:nth-child(6) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.havok-invitational .row_container:nth-child(7) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.havok-invitational .row_container:nth-child(8) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.havok-invitational .row_container:nth-child(9) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.8s;
+}
+.havok-invitational .row_container:nth-child(10) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2s;
+}
+.havok-invitational .row_container:nth-child(11) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2.2s;
+}
 .havok-invitational .row_container {
   display: flex;
   gap: 13px;
+  opacity: 0;
 }
 .havok-invitational .row_container .rank_container {
   height: 82px;

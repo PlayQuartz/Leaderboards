@@ -66,11 +66,11 @@ function LeaderboardHavoKInvitational() {
     return (
         <div className='havok-invitational' style={{backgroundImage: `url(${background})`}}> 
             <div className='leaderboard_container'>
-                <div className='leaderboard_table'>
+                <div key={page} className='leaderboard_table'>
                     <div className='header_container'>
                         <div className='rank_header' onClick={previousPage} >RANK</div>
                         <div className='name_header'>TEAM</div>
-                        <div style={{fontSize: '13px'}} className='info_header'>AVG PLACE</div>
+                        <div style={{fontSize: '13px'}} className='info_header' onClick={previousPage}>AVG PLACE</div>
                         <div className='info_header'>ELIMS</div>
                         <div className='info_header'>WINS</div>
                         <div onClick={nextPage} className='info_header'>POINTS</div>

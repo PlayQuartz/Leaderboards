@@ -46,10 +46,20 @@
         background-image: none;    
     }
 
+    @for $i from 0 through 11 {
+        .row_container:nth-child(#{$i}) {
+            animation: transition 0.4s ease-in forwards;
+            animation-delay: #{($i) * 0.2}s;
+        }
+    }
+
     .row_container{
 
         display: flex;
         gap: 13px;
+        opacity: 0;
+
+
     
         .rank_container{
     
