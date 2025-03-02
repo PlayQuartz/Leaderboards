@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "GoodTimes";
+  src: url("font/good_times.OTF");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("./font/Bahnschrift.TTF");
+}
+@font-face {
+  font-family: "GeomGraphic";
+  src: url("./font/GeomGraphic.otf");
+}
+@font-face {
+  font-family: "Zuume";
+  src: url("./font/Zuume.ttf");
+}
+.havok-invitational {
+  padding: 0;
+  margin: 0;
+  width: 1920px;
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.havok-invitational .leaderboard_table {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  gap: 6px;
+  color: #002a4d;
+}
+.havok-invitational .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: transparent;
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.havok-invitational .row_container:nth-child(0) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.havok-invitational .row_container:nth-child(1) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.havok-invitational .row_container:nth-child(2) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.havok-invitational .row_container:nth-child(3) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.havok-invitational .row_container:nth-child(4) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.havok-invitational .row_container:nth-child(5) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.havok-invitational .row_container:nth-child(6) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.havok-invitational .row_container:nth-child(7) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.havok-invitational .row_container:nth-child(8) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.havok-invitational .row_container:nth-child(9) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.8s;
+}
+.havok-invitational .row_container:nth-child(10) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2s;
+}
+.havok-invitational .row_container:nth-child(11) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2.2s;
+}
+.havok-invitational .row_container {
+  display: flex;
+  gap: 6px;
+  opacity: 0;
+}
+.havok-invitational .row_container .rank_container {
+  height: 59px;
+  width: 74px;
+  margin-left: 5px;
+  color: white;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Zuume";
+}
+.havok-invitational .row_container .name_container {
+  height: 59px;
+  width: 315px;
+  background-color: #000;
+  border-radius: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "GeomGraphic";
+  font-size: 20px;
+  font-weight: 100;
+}
+.havok-invitational .row_container .info_box {
+  height: 59px;
+  width: 73px;
+  border-radius: 0;
+  background-color: #c0c2ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bahnschrift";
+  font-size: 20px;
+  color: #000;
+}
+.havok-invitational .header_container {
+  display: flex;
+  gap: 6px;
+  box-shadow: none;
+  border-radius: 0;
+}
+.havok-invitational .header_container .rank_header {
+  height: 20px;
+  width: 74px;
+  color: transparent;
+}
+.havok-invitational .header_container .name_header {
+  height: 20px;
+  width: 315px;
+  box-shadow: none;
+  color: transparent;
+}
+.havok-invitational .header_container .info_header {
+  width: 73px;
+  height: 20px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: "Bahnschrift";
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -12,6 +12,7 @@ import TCSeSports from './TCSeSports/Leaderboard.js'
 import BattezVous from './BattezVous/Leaderboard.js'
 import HavokShowdown from './HavokShowdown/Leaderboard.js'
 import LeaderboardHavoKInvitational from './HavoKInvitational/Leaderboard.js';
+import LeaderboardHavoKInvitationalVertical from './HavoKInvitationalVertical/Leaderboard.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
           <Route path="/deutschland_leaderboard" element={<DeutschlandCreatorTurnier />} />
           <Route path="/havok_showdown" element={<HavokShowdown />} />
           <Route path="/havok_invitational" element={<LeaderboardHavoKInvitational />} />
+          <Route path="/havok_invitational_vertical" element={<LeaderboardHavoKInvitationalVertical />} />
         </Routes >
       </Router>
   </React.StrictMode>

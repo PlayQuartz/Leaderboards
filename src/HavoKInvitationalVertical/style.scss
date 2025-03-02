@@ -30,14 +30,12 @@
     background-position-x: center;
 
     .leaderboard_table{
-        position: absolute;
+        position: relative;
         width: fit-content;
         height: fit-content;
-        top: 59px;
-        left: 857px;
     
         flex-direction: column;
-        gap: 10px;
+        gap: 6px;
         color: #002a4d;
     }
 
@@ -46,7 +44,10 @@
         width: 1920px;
         height: 1080px;
         background-color: transparent;
-        background-image: none;    
+        background-image: none;   
+        display: flex; 
+        justify-content: center;
+        align-items: center;
     }
 
     @for $i from 0 through 11 {
@@ -59,15 +60,15 @@
     .row_container{
 
         display: flex;
-        gap: 13px;
+        gap: 6px;
         opacity: 0;
 
 
     
         .rank_container{
     
-            height: 82px;
-            width: 103px;
+            height: 59px;
+            width: 74px;
 
             margin-left: 5px;
             color: white;
@@ -77,15 +78,15 @@
             justify-content: center;
             align-items: center;
 
-            font-size: 50px;
+            font-size: 40px;
             font-family: 'Zuume';
 
         }
 
         .name_container{
     
-            height: 82px;
-            width: 432px;
+            height: 59px;
+            width: 315px;
     
             background-color: #000;
             border-radius: 0;
@@ -98,13 +99,13 @@
             gap: 30px;
 
             font-family: 'GeomGraphic';
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 100;
         }
     
         .info_box{
-            height: 82px;
-            width: 100px;
+            height: 59px;
+            width: 73px;
             border-radius: 0;
     
             background-color: #c0c2ca;
@@ -114,7 +115,7 @@
             justify-content: center;
     
             font-family: 'Bahnschrift';
-            font-size: 26px;
+            font-size: 20px;
             color: #000;
         }
     }
@@ -122,26 +123,26 @@
     .header_container{
 
         display: flex;
-        gap: 13px;
+        gap: 6px;
         box-shadow: none;
         border-radius: 0;
 
         .rank_header{
             height: 20px;
-            width: 103px;
+            width: 74px;
             
             color: transparent;
         }
 
         .name_header{
             height: 20px;
-            width: 432px;
+            width: 315px;
             box-shadow: none;
             color: transparent;
         }
     
         .info_header{
-            width: 100px;
+            width: 73px;
             height: 20px;
     
             box-shadow: none;
