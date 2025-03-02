@@ -61,7 +61,7 @@ function LeaderboardHavoKInvitational() {
     }
     
     return (
-        <div className='havok-invitational' style={{backgroundImage: `url(${background})`}}> 
+        <div className='havok-invitational-vertical' style={{backgroundImage: `url(${background})`}}> 
             <div className='leaderboard_container'>
                 <div key={page} className='leaderboard_table'>
                     <div className='header_container'>
