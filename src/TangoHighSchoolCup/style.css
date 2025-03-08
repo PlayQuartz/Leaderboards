@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "FoundryGridnik";
+  src: url("font/FoundryGridnik.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.tango-high-school-cup {
+  user-select: none;
+}
+.tango-high-school-cup .leaderboard_table {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  top: 226px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: #002a4d;
+  z-index: 2;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(0) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(1) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.2s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(2) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.4s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(3) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.6s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(4) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 0.8s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(5) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(6) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.2s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(7) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.4s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(8) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.6s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(9) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 1.8s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(10) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2s;
+}
+.tango-high-school-cup .leaderboard_table .row_container:nth-child(11) {
+  animation: transition 0.4s ease-in forwards;
+  animation-delay: 2.2s;
+}
+.tango-high-school-cup .leaderboard_container {
+  width: 1920px;
+  height: 1080px;
+  background-color: transparent;
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tango-high-school-cup .leaderboard_container .black_container {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 720px;
+  width: 1600px;
+  position: absolute;
+  z-index: 0;
+  top: 226px;
+}
+.tango-high-school-cup .row_container {
+  display: flex;
+  gap: 0;
+  opacity: 0;
+}
+.tango-high-school-cup .row_container .rank_container {
+  height: 75px;
+  width: 114px;
+  background-color: #270140;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-family: "FoundryGridnik";
+}
+.tango-high-school-cup .row_container .name_container {
+  height: 75px;
+  width: 1015px;
+  background-color: #320151;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+  font-family: "FoundryGridnik";
+  font-size: 26px;
+}
+.tango-high-school-cup .row_container .info_container {
+  display: flex;
+  gap: 10px;
+  background-color: #320151;
+}
+.tango-high-school-cup .row_container .info_container .info_box {
+  height: 75px;
+  width: 114px;
+  border-radius: 0;
+  background-color: #270140;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "FoundryGridnik";
+  font-size: 26px;
+  color: white;
+}
+.tango-high-school-cup .header_container {
+  display: flex;
+  box-shadow: none;
+  border-radius: 0;
+  background: linear-gradient(to right, #1b0744, #a09bfd);
+  font-weight: 700;
+  gap: 0;
+}
+.tango-high-school-cup .header_container .rank_header {
+  width: 114px;
+  height: 40px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "FoundryGridnik";
+  background-color: transparent;
+}
+.tango-high-school-cup .header_container .name_header {
+  width: 1015px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  font-family: "FoundryGridnik";
+  background-color: transparent;
+}
+.tango-high-school-cup .header_container .info_container {
+  display: flex;
+  gap: 10px;
+}
+.tango-high-school-cup .header_container .info_container .info_header {
+  width: 114px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "FoundryGridnik";
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
