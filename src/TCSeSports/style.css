@@ -5,10 +5,7 @@
   font-style: normal;
 }
 .tcs .leaderboard_table {
-  position: absolute;
   width: 100%;
-  height: fit-content;
-  top: 226px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,17 +18,20 @@
   height: 1080px;
   background-color: transparent;
   background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tcs .row_container {
   display: flex;
   gap: 10px;
 }
 .tcs .row_container .rank_container {
-  height: 75px;
-  width: 117px;
+  height: 80px;
+  width: 90px;
   margin-left: 5px;
-  background-color: white;
-  border-bottom: 5px solid #ffe400;
+  background-color: #e0e5ea;
+  border-bottom: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,11 +39,11 @@
   font-family: "GoodTimes";
 }
 .tcs .row_container .name_container {
-  height: 75px;
-  width: 1107px;
-  background-color: white;
+  height: 80px;
+  width: 710px;
+  background-color: #e0e5ea;
   border-radius: 0;
-  border-bottom: 5px solid #ffe400;
+  border-bottom: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,11 +52,11 @@
   font-size: 26px;
 }
 .tcs .row_container .info_box {
-  height: 75px;
-  width: 116px;
+  height: 80px;
+  width: 90px;
   border-radius: 0;
-  background-color: white;
-  border-bottom: 5px solid #ffe400;
+  background-color: #e0e5ea;
+  border-bottom: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,7 +71,7 @@
   border-radius: 0;
 }
 .tcs .header_container .rank_header {
-  width: 117px;
+  width: 90px;
   height: 40px;
   box-shadow: none;
   display: flex;
@@ -80,10 +80,10 @@
   gap: 36px;
   color: white;
   font-family: "GoodTimes";
-  background-color: #0070be;
+  background-color: transparent;
 }
 .tcs .header_container .name_header {
-  width: 1107px;
+  width: 710px;
   height: 40px;
   box-shadow: none;
   border-radius: 0;
@@ -93,10 +93,10 @@
   gap: 36px;
   color: white;
   font-family: "GoodTimes";
-  background-color: #0070be;
+  background-color: transparent;
 }
 .tcs .header_container .info_header {
-  width: 116px;
+  width: 90px;
   height: 40px;
   box-shadow: none;
   border-radius: 0;
@@ -105,7 +105,7 @@
   align-items: center;
   color: white;
   font-family: "GoodTimes";
-  background-color: #0070be;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

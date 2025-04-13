@@ -8,12 +8,9 @@
 
 .tcs{
 
+
     .leaderboard_table{
-        position: absolute;
         width: 100%;
-        height: fit-content;
-        top: 226px;
-    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,7 +24,11 @@
         width: 1920px;
         height: 1080px;
         background-color: transparent;
-        background-image: none;    
+        background-image: none;   
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .row_container{
@@ -37,14 +38,14 @@
     
         .rank_container{
     
-            height: 75px;
-            width: 117px;
+            height: 80px;
+            width: 90px;
 
             margin-left: 5px;
 
-            background-color:  white;
+            background-color:  #e0e5ea;
 
-            border-bottom: 5px solid #ffe400;
+            border-bottom: none;
 
             display: flex;
             justify-content: center;
@@ -57,13 +58,13 @@
 
         .name_container{
     
-            height: 75px;
-            width: 1107px;
+            height: 80px;
+            width: 710px;
     
-            background-color: white;
+            background-color: #e0e5ea;
             border-radius: 0;
 
-            border-bottom: 5px solid #ffe400;
+            border-bottom: none;
     
             display: flex;
             align-items: center;
@@ -75,12 +76,12 @@
         }
     
         .info_box{
-            height: 75px;
-            width: 116px;
+            height: 80px;
+            width: 90px;
             border-radius: 0;
     
-            background-color: white;
-            border-bottom: 5px solid #ffe400;
+            background-color: #e0e5ea;
+            border-bottom: none;
     
             display: flex;
             align-items: center;
@@ -100,7 +101,7 @@
         border-radius: 0;
 
         .rank_header{
-            width: 117px;
+            width: 90px;
             height: 40px;
                 
             box-shadow: none;
@@ -112,11 +113,11 @@
     
             color: white;
             font-family: 'GoodTimes';
-            background-color: #0070be;
+            background-color: transparent;
         }
 
         .name_header{
-            width: 1107px;
+            width: 710px;
             height: 40px;
                 
             box-shadow: none;
@@ -128,11 +129,11 @@
     
             color: white;
             font-family: 'GoodTimes';
-            background-color: #0070be;
+            background-color: transparent;
         }
     
         .info_header{
-            width: 116px;
+            width: 90px;
             height: 40px;
     
             box-shadow: none;
@@ -144,7 +145,7 @@
     
             color: white;
             font-family: 'GoodTimes';
-            background-color: #0070be;
+            background-color: transparent;
         }
     
     }
