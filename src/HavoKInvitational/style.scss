@@ -68,7 +68,7 @@
 
             margin-left: 5px;
             color: white;
-            background-color:  white;
+            background-color:  #d1b07d;
 
             display: flex;
             justify-content: center;
@@ -84,7 +84,7 @@
             height: 82px;
             width: 432px;
     
-            background-color: #000;
+            background-color: #181005;
             border-radius: 0;
     
             color: #fff;
@@ -104,7 +104,7 @@
             width: 100px;
             border-radius: 0;
     
-            background-color: #c0c2ca;
+            background-color: #fff;
             
             display: flex;
             align-items: center;
@@ -112,7 +112,7 @@
     
             font-family: 'Bahnschrift';
             font-size: 26px;
-            color: #000;
+            color: #181005;
         }
     }
 
@@ -122,6 +122,7 @@
         gap: 13px;
         box-shadow: none;
         border-radius: 0;
+        color: #181005;
 
         .rank_header{
             height: 20px;
@@ -148,7 +149,7 @@
             justify-content: center;
             align-items: center;
     
-            color: #000;
+            color: #181005;
             font-family: 'Bahnschrift';
             font-weight: 100;
         }

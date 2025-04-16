@@ -96,7 +96,7 @@
   width: 103px;
   margin-left: 5px;
   color: white;
-  background-color: white;
+  background-color: #d1b07d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +106,7 @@
 .havok-invitational .row_container .name_container {
   height: 82px;
   width: 432px;
-  background-color: #000;
+  background-color: #181005;
   border-radius: 0;
   color: #fff;
   display: flex;
@@ -121,19 +121,20 @@
   height: 82px;
   width: 100px;
   border-radius: 0;
-  background-color: #c0c2ca;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Bahnschrift";
   font-size: 26px;
-  color: #000;
+  color: #181005;
 }
 .havok-invitational .header_container {
   display: flex;
   gap: 13px;
   box-shadow: none;
   border-radius: 0;
+  color: #181005;
 }
 .havok-invitational .header_container .rank_header {
   height: 20px;
@@ -154,7 +155,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
+  color: #181005;
   font-family: "Bahnschrift";
   font-weight: 100;
 }

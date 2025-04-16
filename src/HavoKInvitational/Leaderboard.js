@@ -1,13 +1,12 @@
 import './style.css';
 import React, {useState, useEffect} from "react"
 import { useLocation } from 'react-router-dom';
-import rankBox from './assets/rankBox.png'
 import background from './assets/background.png'
 
 function Row({rank, teamname, points, elims, avg_place, wins}) {
     return (
         <div className='row_container'>
-            <div className='rank_container' style={{backgroundImage: `url(${rankBox})`}}>{rank}</div>
+            <div className='rank_container'>{rank}</div>
             <div className='name_container'>{teamname}</div>
             <div className='info_box'>{avg_place.toFixed(2)}</div>  
             <div className='info_box'>{elims}</div>  
