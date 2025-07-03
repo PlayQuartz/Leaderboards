@@ -22,7 +22,7 @@ function LeaderboardTCS() {
     const leaderboard_id = new URLSearchParams(useLocation().search).get('id');
 
     const [leaderboard, setLeaderboard] = useState(null)
-    const [page, setPage] = useState([0, 8])
+    const [page, setPage] = useState([0, 10])
 
     useEffect(() => {
 
@@ -56,11 +56,11 @@ function LeaderboardTCS() {
     }, [])
 
     function nextPage(){
-        setPage(page.map(num => num + 8))
+        setPage(page.map(num => num + 10))
     }
 
     function previousPage(){
-        setPage(page.map(num => num - 8 ))
+        setPage(page.map(num => num - 10))
     }
     
     return (

@@ -31,7 +31,7 @@ html, body {
   gap: 10px;
 }
 .tcs .row_container .rank_container {
-  height: 80px;
+  height: 70px;
   width: 90px;
   margin-left: 5px;
   background-color: #e0e5ea;
@@ -43,7 +43,7 @@ html, body {
   font-family: "GoodTimes";
 }
 .tcs .row_container .name_container {
-  height: 80px;
+  height: 70px;
   width: 710px;
   background-color: #e0e5ea;
   border-radius: 0;
@@ -56,7 +56,7 @@ html, body {
   font-size: 26px;
 }
 .tcs .row_container .info_box {
-  height: 80px;
+  height: 70px;
   width: 90px;
   border-radius: 0;
   background-color: #e0e5ea;
