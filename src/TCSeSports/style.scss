@@ -3,11 +3,15 @@
     src: url('font/good_times.OTF');
     font-weight: 800;
     font-style: normal;
+    
+}
+
+html, body{
+    overflow: hidden;
 }
 
 
 .tcs{
-
 
     .leaderboard_table{
         width: 100%;

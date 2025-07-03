@@ -2,6 +2,8 @@ import './style.css';
 import React, {useState, useEffect} from "react"
 import { useLocation } from 'react-router-dom';
 
+import LeaderboardBackground from './assets/background.png'
+
 function Row({rank, teamname, points, elims, avg_place, wins}) {
     return (
         <div className='row_container'>
@@ -62,9 +64,9 @@ function LeaderboardTCS() {
     }
     
     return (
-        <div className='tcs'> 
+        <div className='tcs' style={{backgroundImage: `url(${LeaderboardBackground})`}}> 
             <div className='leaderboard_container'>
-                <div className='leaderboard_table'>
+                <div className='leaderboard_table' style={{left: "240px"}}>
                     <div className='header_container'>
                         <div className='rank_header' onClick={previousPage} >RANK</div>
                         <div className='name_header'>TEAM</div>
