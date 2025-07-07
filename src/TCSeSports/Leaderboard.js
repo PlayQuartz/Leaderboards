@@ -61,7 +61,12 @@ function LeaderboardTCS() {
     }
 
     function previousPage(){
-        setPage(page.map(num => num - 10))
+        if(page[0]-10 < 0){
+            setPage([0,10])
+        }
+        else{
+            setPage(page.map(num => num - 10))
+        }
     }
     
     return (
