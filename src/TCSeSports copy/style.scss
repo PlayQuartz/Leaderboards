@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'GoodTimes';
+    src: url('font/good_times.OTF');
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+html, body{
+    overflow: hidden;
+}
+
+
+.tcs_prod{
+
+    .leaderboard_table_prod{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        color: #002a4d;
+    }
+
+
+    .leaderboard_container_prod{
+        width: 1920px;
+        height: 1080px;
+        background-color: transparent;
+        background-image: none;   
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row_container_prod{
+
+        display: flex;
+        gap: 10px;
+    
+        .rank_container_prod{
+    
+            height: 70px;
+            width: 90px;
+
+            margin-left: 5px;
+
+            background-color:  #e0e5ea;
+
+            border-bottom: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 26px;
+            font-family: 'GoodTimes';
+
+        }
+
+        .name_container_prod{
+    
+            height: 70px;
+            width: 710px;
+    
+            background-color: #e0e5ea;
+            border-radius: 0;
+
+            border-bottom: none;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            font-family: 'GoodTimes';
+            font-size: 26px;
+        }
+    
+        .info_box_prod{
+            height: 70px;
+            width: 90px;
+            border-radius: 0;
+    
+            background-color: #e0e5ea;
+            border-bottom: none;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            font-family: 'GoodTimes';
+            font-size: 26px;
+            color: #002a4d;
+        }
+    }
+
+    .header_container_prod{
+
+        display: flex;
+        gap: 10px;
+        box-shadow: none;
+        border-radius: 0;
+
+        .rank_header_prod{
+            width: 90px;
+            height: 40px;
+                
+            box-shadow: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+    
+            color: white;
+            font-family: 'GoodTimes';
+            background-color: transparent;
+        }
+
+        .name_header_prod{
+            width: 710px;
+            height: 40px;
+                
+            box-shadow: none;
+            border-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+    
+            color: white;
+            font-family: 'GoodTimes';
+            background-color: transparent;
+        }
+    
+        .info_header_prod{
+            width: 90px;
+            height: 40px;
+    
+            box-shadow: none;
+            border-radius: 0;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            color: white;
+            font-family: 'GoodTimes';
+            background-color: transparent;
+        }
+    
+    }
+
+}

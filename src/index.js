@@ -14,6 +14,7 @@ import HavokShowdown from './HavokShowdown/Leaderboard.js'
 import LeaderboardHavoKInvitational from './HavoKInvitational/Leaderboard.js';
 import LeaderboardHavoKInvitationalVertical from './HavoKInvitationalVertical/Leaderboard.js';
 import LeaderboardTangoHighSchoolCup from './TangoHighSchoolCup/Leaderboard.js';
+import LeaderboardTCSProd from './TCSeSports copy/Leaderboard.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
           <Route path="/reddysh_royale_leaderboard" element={<ReddyshRoyale />} />
           <Route path="/stizo_cup_leaderboard" element={<StizoCup />} />
           <Route path="/tcs_leaderboard" element={<TCSeSports />} />
+          <Route path="/tcs_leaderboard_prod" element={<LeaderboardTCSProd />} />
           <Route path="/doigby_leaderboard" element={<DoigbyInvitationalFtFortnite />} />
           <Route path="/battez_vous" element={<BattezVous />} />
           <Route path="/deutschland_leaderboard" element={<DeutschlandCreatorTurnier />} />
