@@ -4,47 +4,106 @@
   font-weight: 800;
   font-style: normal;
 }
-html, body {
+html, body, #root {
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.tcs .leaderboard_table {
+* {
+  box-sizing: border-box;
+}
+
+.tcs {
   width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "header" "content";
+  grid-template-rows: 100px 1fr;
+}
+.tcs .header {
+  grid-area: "header";
+  background-color: #002a4d;
+  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 20px;
+}
+.tcs .header .logo {
+  height: 100%;
+  padding: 25px;
+}
+.tcs .header .link {
+  color: white;
+  font-family: "GoodTimes";
+  text-decoration: none;
+}
+.tcs .leaderboard_table {
+  position: relative;
+  width: 100%;
+  height: min-content;
+  display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   color: #002a4d;
 }
 .tcs .leaderboard_container {
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100%;
   background-color: transparent;
   background-image: none;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  grid-area: content;
+  background-color: #041e3f;
+  padding: 15px;
+}
+.tcs .leaderboard_container .page-manager {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.tcs .row_container {
+.tcs .leaderboard_container .page-manager .page-btn {
+  color: white;
+  height: 35px;
+  width: 140px;
+  border-radius: 5px;
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.tcs .leaderboard_container .page-manager .page-btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.tcs .row_container {
+  display: grid;
+  grid-template-columns: 15% 1fr 20%;
+  column-gap: 5px;
+  width: 100%;
+  height: 45px;
 }
 .tcs .row_container .rank_container {
-  height: 70px;
-  width: 90px;
-  margin-left: 5px;
+  height: inherit;
   background-color: #e0e5ea;
   border-bottom: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 26px;
   font-family: "GoodTimes";
+  font-size: 1rem;
 }
 .tcs .row_container .name_container {
-  height: 70px;
-  width: 710px;
+  height: inherit;
+  width: inherit;
   background-color: #e0e5ea;
   border-radius: 0;
   border-bottom: none;
@@ -53,11 +112,11 @@ html, body {
   justify-content: center;
   gap: 30px;
   font-family: "GoodTimes";
-  font-size: 26px;
+  font-size: 1rem;
 }
 .tcs .row_container .info_box {
-  height: 70px;
-  width: 90px;
+  height: inherit;
+  width: inherit;
   border-radius: 0;
   background-color: #e0e5ea;
   border-bottom: none;
@@ -65,18 +124,21 @@ html, body {
   align-items: center;
   justify-content: center;
   font-family: "GoodTimes";
-  font-size: 26px;
   color: #002a4d;
+  font-size: 1rem;
 }
 .tcs .header_container {
-  display: flex;
-  gap: 10px;
   box-shadow: none;
   border-radius: 0;
+  display: grid;
+  grid-template-columns: 15% 1fr 20%;
+  column-gap: 5px;
+  width: 100%;
+  height: 20px;
 }
 .tcs .header_container .rank_header {
-  width: 90px;
-  height: 40px;
+  height: inherit;
+  width: inherit;
   box-shadow: none;
   display: flex;
   justify-content: center;
@@ -85,10 +147,11 @@ html, body {
   color: white;
   font-family: "GoodTimes";
   background-color: transparent;
+  font-size: 0.6rem;
 }
 .tcs .header_container .name_header {
-  width: 710px;
-  height: 40px;
+  height: inherit;
+  width: inherit;
   box-shadow: none;
   border-radius: 0;
   display: flex;
@@ -98,10 +161,11 @@ html, body {
   color: white;
   font-family: "GoodTimes";
   background-color: transparent;
+  font-size: 0.6rem;
 }
 .tcs .header_container .info_header {
-  width: 90px;
-  height: 40px;
+  height: inherit;
+  width: inherit;
   box-shadow: none;
   border-radius: 0;
   display: flex;
@@ -110,6 +174,7 @@ html, body {
   color: white;
   font-family: "GoodTimes";
   background-color: transparent;
+  font-size: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,46 +6,119 @@
     
 }
 
-html, body{
+html, body, #root{
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:  0;
 }
 
+*{
+    box-sizing: border-box;
+}
 
 .tcs{
 
-    .leaderboard_table{
-        width: 100%;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-areas: "header" "content";
+    grid-template-rows: 100px 1fr;
+
+    .header{
+        grid-area: "header";
+        background-color: #002a4d;
+        height: 100%;
+
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items: center;      
+        gap: 20px;  
+
+        .logo{
+            height: 100%;
+            padding: 25px;
+        }
+
+        .link{
+            color: white;
+            font-family: 'GoodTimes';
+            text-decoration: none;
+        }
+    }
+
+    .leaderboard_table{
+        position: relative;
+        width: 100%;
+        height: min-content;
+        display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
         color: #002a4d;
+
     }
 
 
     .leaderboard_container{
-        width: 1920px;
-        height: 1080px;
+        width: 100%;
+        height: 100%;
         background-color: transparent;
         background-image: none;   
-        
+
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: start;
         align-items: center;
+
+        grid-area: content;
+        background-color: #041e3f;
+
+        padding: 15px;
+     
+        .page-manager{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .page-btn{
+                color: white;
+                height: 35px;
+                width: 140px;
+
+                border-radius: 5px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                user-select: none;
+
+                cursor: pointer;
+
+                background-color: rgba(0,0,0,0.6);
+
+                &:hover{
+                    background-color: rgba(0,0,0,0.3);
+                }
+            }
+        }
+        
     }
 
     .row_container{
 
-        display: flex;
-        gap: 10px;
+        display: grid;
+        grid-template-columns: 15% 1fr 20%;
+        column-gap: 5px;
+        width: 100%;
+        height: 45px;
     
         .rank_container{
     
-            height: 70px;
-            width: 90px;
-
-            margin-left: 5px;
+            height: inherit;
 
             background-color:  #e0e5ea;
 
@@ -55,16 +128,15 @@ html, body{
             justify-content: center;
             align-items: center;
 
-            font-size: 26px;
             font-family: 'GoodTimes';
+            font-size: 1rem;
 
         }
 
         .name_container{
     
-            height: 70px;
-            width: 710px;
-    
+            height: inherit;
+            width: inherit;
             background-color: #e0e5ea;
             border-radius: 0;
 
@@ -76,12 +148,12 @@ html, body{
             gap: 30px;
 
             font-family: 'GoodTimes';
-            font-size: 26px;
+            font-size: 1rem;
         }
     
         .info_box{
-            height: 70px;
-            width: 90px;
+            height: inherit;
+            width: inherit;
             border-radius: 0;
     
             background-color: #e0e5ea;
@@ -92,21 +164,25 @@ html, body{
             justify-content: center;
     
             font-family: 'GoodTimes';
-            font-size: 26px;
             color: #002a4d;
+            font-size: 1rem;
         }
     }
 
     .header_container{
 
-        display: flex;
-        gap: 10px;
         box-shadow: none;
         border-radius: 0;
 
+        display: grid;
+        grid-template-columns: 15% 1fr 20%;
+        column-gap: 5px;
+        width: 100%;
+        height: 20px;
+
         .rank_header{
-            width: 90px;
-            height: 40px;
+            height: inherit;
+            width: inherit;
                 
             box-shadow: none;
 
@@ -118,11 +194,12 @@ html, body{
             color: white;
             font-family: 'GoodTimes';
             background-color: transparent;
+            font-size: .6rem;
         }
 
         .name_header{
-            width: 710px;
-            height: 40px;
+            height: inherit;
+            width: inherit;
                 
             box-shadow: none;
             border-radius: 0;
@@ -134,11 +211,12 @@ html, body{
             color: white;
             font-family: 'GoodTimes';
             background-color: transparent;
+            font-size: .6rem;
         }
     
         .info_header{
-            width: 90px;
-            height: 40px;
+            height: inherit;
+            width: inherit;
     
             box-shadow: none;
             border-radius: 0;
@@ -150,6 +228,7 @@ html, body{
             color: white;
             font-family: 'GoodTimes';
             background-color: transparent;
+            font-size: .6rem;
         }
     
     }
