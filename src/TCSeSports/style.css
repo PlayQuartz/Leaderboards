@@ -60,7 +60,7 @@ html, body, #root {
   align-items: center;
   grid-area: content;
   background-color: #041e3f;
-  padding: 15px;
+  padding: 20px 5%;
 }
 .tcs .leaderboard_container .page-manager {
   width: 100%;
@@ -86,10 +86,37 @@ html, body, #root {
 }
 .tcs .row_container {
   display: grid;
-  grid-template-columns: 15% 1fr 20%;
+  grid-template-columns: 0.8fr 3fr 1fr;
   column-gap: 5px;
   width: 100%;
   height: 45px;
+}
+.tcs .row_container .wins, .tcs .row_container .elims, .tcs .row_container .avgplace {
+  display: none !important;
+}
+@media (min-width: 769px) {
+  .tcs .row_container {
+    grid-template-columns: 0.8fr 3fr 1fr 1fr;
+  }
+  .tcs .row_container .wins {
+    display: flex !important;
+  }
+}
+@media (min-width: 890px) {
+  .tcs .row_container {
+    grid-template-columns: 0.8fr 3fr 1fr 1fr 1fr;
+  }
+  .tcs .row_container .elims {
+    display: flex !important;
+  }
+}
+@media (min-width: 1000px) {
+  .tcs .row_container {
+    grid-template-columns: 0.8fr 5fr 1fr 1fr 1fr 1fr;
+  }
+  .tcs .row_container .avgplace {
+    display: flex !important;
+  }
 }
 .tcs .row_container .rank_container {
   height: inherit;
@@ -131,10 +158,37 @@ html, body, #root {
   box-shadow: none;
   border-radius: 0;
   display: grid;
-  grid-template-columns: 15% 1fr 20%;
+  grid-template-columns: 0.8fr 3fr 1fr;
   column-gap: 5px;
   width: 100%;
   height: 20px;
+}
+.tcs .header_container .wins, .tcs .header_container .elims, .tcs .header_container .avgplace {
+  display: none !important;
+}
+@media (min-width: 769px) {
+  .tcs .header_container {
+    grid-template-columns: 0.8fr 3fr 1fr 1fr;
+  }
+  .tcs .header_container .wins {
+    display: flex !important;
+  }
+}
+@media (min-width: 890px) {
+  .tcs .header_container {
+    grid-template-columns: 0.8fr 3fr 1fr 1fr 1fr;
+  }
+  .tcs .header_container .elims {
+    display: flex !important;
+  }
+}
+@media (min-width: 1000px) {
+  .tcs .header_container {
+    grid-template-columns: 0.8fr 5fr 1fr 1fr 1fr 1fr;
+  }
+  .tcs .header_container .avgplace {
+    display: flex !important;
+  }
 }
 .tcs .header_container .rank_header {
   height: inherit;

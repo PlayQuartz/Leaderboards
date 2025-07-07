@@ -10,9 +10,9 @@ function Row({rank, teamname, points, elims, avg_place, wins}) {
         <div className='row_container'>
             <div className='rank_container'>#{rank}</div>
             <div className='name_container'>{teamname}</div>
-            {/* <div className='info_box'>{avg_place.toFixed(2)}</div>  
-            <div className='info_box'>{elims}</div>  
-            <div className='info_box'>{wins}</div>   */}
+            <div className='info_box avgplace'>{avg_place.toFixed(2)}</div>  
+            <div className='info_box elims'>{elims}</div>  
+            <div className='info_box wins'>{wins}</div>  
             <div className='info_box'>{points}</div>  
         </div>
     )
@@ -76,9 +76,9 @@ function LeaderboardTCS() {
                     <div className='header_container'>
                         <div className='rank_header' >RANK</div>
                         <div className='name_header'>TEAM</div>
-                        {/* <div style={{fontSize: '13px'}} className='info_header'>AVG PLACE</div>
-                        <div className='info_header'>ELIMS</div>
-                        <div className='info_header'>WINS</div> */}
+                        <div style={{fontSize: '13px'}} className='info_header avgplace'>AVG PLACE</div>
+                        <div className='info_header elims'>ELIMS</div>
+                        <div className='info_header wins'>WINS</div>
                         <div className='info_header'>POINTS</div>
                     </div>
                     {leaderboard ? leaderboard.slice(page[0],page[1]).map(data => <Row rank={data.place} teamname={data.teamname} points={data.points} elims={data.elims} wins={data.wins} avg_place={data.avg_place}/>) : ''}
