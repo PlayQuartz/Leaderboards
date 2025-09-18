@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.7581b210.css",
-    "main.js": "/Leaderboards/static/js/main.ea3843ad.js",
+    "main.css": "/Leaderboards/static/css/main.1167fa15.css",
+    "main.js": "/Leaderboards/static/js/main.183410c4.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
     "static/media/Bahnschrift.TTF": "/Leaderboards/static/media/Bahnschrift.b00e12e37c52124aa504.TTF",
     "static/media/Helvetica.ttf": "/Leaderboards/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/DrukMedium.otf": "/Leaderboards/static/media/DrukMedium.47690e543461d60f3fa3.otf",
     "static/media/IMPACT.TTF": "/Leaderboards/static/media/IMPACT.393c8a0b905e3208112c.TTF",
+    "static/media/Poppins-Regular.ttf": "/Leaderboards/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/OmnesSemiBold.ttf": "/Leaderboards/static/media/OmnesSemiBold.d9e74f703b27c9c45d13.ttf",
     "static/media/row5.png": "/Leaderboards/static/media/row5.20ad8bdf2e515b2d664f.png",
+    "static/media/Poppins-Black.ttf": "/Leaderboards/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "static/media/row4.png": "/Leaderboards/static/media/row4.a177b94aa3a5b5a376bd.png",
     "static/media/GroldMedium.ttf": "/Leaderboards/static/media/GroldMedium.14f8acef6cbba1bb88e5.ttf",
     "static/media/wolt_character.png": "/Leaderboards/static/media/wolt_character.749771f67862b91fb4db.png",
@@ -24,6 +26,7 @@
     "static/media/row3.png": "/Leaderboards/static/media/row3.5aa21b1d49c159358b6d.png",
     "static/media/Zuume.ttf": "/Leaderboards/static/media/Zuume.70d7f188d53268173027.ttf",
     "static/media/row10.png": "/Leaderboards/static/media/row10.fafe4a001b00691bc0d2.png",
+    "static/media/EVERS.OTF": "/Leaderboards/static/media/EVERS.d9e8f67be86754188526.OTF",
     "static/media/BENIREGULAR.TTF": "/Leaderboards/static/media/BENIREGULAR.63530b244b8ea50a4388.TTF",
     "static/media/GeomGraphic.otf": "/Leaderboards/static/media/GeomGraphic.bc4a8da202a248e857a9.otf",
     "static/media/FoundryGridnik.otf": "/Leaderboards/static/media/FoundryGridnik.2a5b7bae40900f49d1a1.otf",
@@ -35,11 +38,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.7581b210.css.map": "/Leaderboards/static/css/main.7581b210.css.map",
-    "main.ea3843ad.js.map": "/Leaderboards/static/js/main.ea3843ad.js.map"
+    "main.1167fa15.css.map": "/Leaderboards/static/css/main.1167fa15.css.map",
+    "main.183410c4.js.map": "/Leaderboards/static/js/main.183410c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7581b210.css",
-    "static/js/main.ea3843ad.js"
+    "static/css/main.1167fa15.css",
+    "static/js/main.183410c4.js"
   ]
 }
