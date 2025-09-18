@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "GoodTimes";
+  src: url("font/good_times.OTF");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("font/Poppins-Regular.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("font/Poppins-Black.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Evers";
+  src: url("font/EVERS.OTF");
+  font-weight: 800;
+  font-style: normal;
+}
+html,
+body {
+  overflow: hidden;
+}
+
+.solary_prod {
+  background-color: black;
+}
+.solary_prod .leaderboard_table_prod {
+  margin-top: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  color: #002a4d;
+  display: grid;
+  grid-template-columns: 80px 507px 66px 66px;
+  grid-template-rows: 40px;
+  grid-auto-rows: 60px;
+}
+.solary_prod .leaderboard_table_prod .rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30pt;
+  font-family: "Evers";
+}
+.solary_prod .leaderboard_table_prod .rank.top1 {
+  color: #ffdd33;
+}
+.solary_prod .leaderboard_table_prod .rank.top2 {
+  color: #a0a0a0;
+}
+.solary_prod .leaderboard_table_prod .rank.top3 {
+  color: #c05f00;
+}
+.solary_prod .leaderboard_table_prod .name-and-vr {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+  padding: 0 20px 0 18px;
+  color: #ffdd33;
+}
+.solary_prod .leaderboard_table_prod .name-and-vr.odd {
+  background: linear-gradient(to left, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+}
+.solary_prod .leaderboard_table_prod .name-and-vr .name {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.solary_prod .leaderboard_table_prod .name-and-vr .name.header {
+  color: #ffdd33;
+  font-family: "PoppinsBlack";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.solary_prod .leaderboard_table_prod .name-and-vr .wins {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Evers";
+  font-size: 13pt;
+}
+.solary_prod .leaderboard_table_prod .name-and-vr .wins.header {
+  color: #ffdd33;
+  font-family: "PoppinsBlack";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.solary_prod .leaderboard_table_prod .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Evers";
+  font-size: 17pt;
+}
+.solary_prod .leaderboard_table_prod .info.elims {
+  color: white;
+}
+.solary_prod .leaderboard_table_prod .info.points {
+  color: #ffdd33;
+}
+.solary_prod .leaderboard_table_prod .header {
+  color: #ffdd33;
+  font-family: "PoppinsBlack";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.solary_prod .leaderboard_container_prod {
+  width: 1920px;
+  height: 1080px;
+  background-color: transparent;
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.solary_prod .rank_container_prod {
+  height: 60px;
+  width: 106px;
+  margin-left: 5px;
+  color: white;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  font-family: "Evers";
+}
+.solary_prod .name_and_vr_container {
+  width: 507px;
+  height: 60px;
+  background: linear-gradient(to right, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+  padding: 0 20px 0 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffdd33;
+}
+.solary_prod .name_and_vr_container .name_container_prod {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 17pt;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.solary_prod .name_and_vr_container .vr_container_prod {
+  border-radius: 0;
+  border-bottom: none;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Evers";
+  font-size: 15pt;
+}
+.solary_prod .info_box_prod {
+  height: 60px;
+  width: 66px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Evers";
+  font-size: 18pt;
+}
+.solary_prod .info_box_prod.white {
+  color: white;
+}
+.solary_prod .info_box_prod.gold {
+  color: #ffdd33;
+}
+.solary_prod .header_container_prod {
+  display: flex;
+  gap: 10px;
+  box-shadow: none;
+  border-radius: 0;
+}
+.solary_prod .header_container_prod .rank_header_prod {
+  width: 90px;
+  height: 40px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  color: white;
+  font-family: "GoodTimes";
+  background-color: transparent;
+}
+.solary_prod .header_container_prod .name_header_prod {
+  width: 710px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  color: white;
+  font-family: "GoodTimes";
+  background-color: transparent;
+}
+.solary_prod .header_container_prod .info_header_prod {
+  width: 90px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "GoodTimes";
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
