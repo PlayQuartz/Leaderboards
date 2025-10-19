@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.efe453a5.css",
-    "main.js": "/Leaderboards/static/js/main.e7a667cd.js",
+    "main.css": "/Leaderboards/static/css/main.8b80e171.css",
+    "main.js": "/Leaderboards/static/js/main.ef4648c3.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
     "static/media/MapPopUp.webm": "/Leaderboards/static/media/MapPopUp.4e53db4f6a60c8b98133.webm",
     "static/media/Bahnschrift.TTF": "/Leaderboards/static/media/Bahnschrift.b00e12e37c52124aa504.TTF",
@@ -40,11 +40,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.efe453a5.css.map": "/Leaderboards/static/css/main.efe453a5.css.map",
-    "main.e7a667cd.js.map": "/Leaderboards/static/js/main.e7a667cd.js.map"
+    "main.8b80e171.css.map": "/Leaderboards/static/css/main.8b80e171.css.map",
+    "main.ef4648c3.js.map": "/Leaderboards/static/js/main.ef4648c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.efe453a5.css",
-    "static/js/main.e7a667cd.js"
+    "static/css/main.8b80e171.css",
+    "static/js/main.ef4648c3.js"
   ]
 }
