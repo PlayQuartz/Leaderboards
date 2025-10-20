@@ -16,6 +16,9 @@ import LeaderboardHavoKInvitationalVertical from './HavoKInvitationalVertical/Le
 import LeaderboardTangoHighSchoolCup from './TangoHighSchoolCup/Leaderboard.js';
 
 import LeaderboardSolaryCup from './SolaryCup/Leaderboard.js';
+import ErazerOverlay from './ErazerCup/Overlay.js'
+import LeaderboardErazerCup from './ErazerCupLeaderboard/Leaderboard.js'
+import PopUpLeaderboard from './ErazerCupLeaderboard/PopUpLeaderboard.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,6 +37,9 @@ root.render(
           <Route path="/havok_invitational_vertical" element={<LeaderboardHavoKInvitationalVertical />} />
           <Route path="/tango_high_school_cup" element={<LeaderboardTangoHighSchoolCup />} />
           <Route path="/solary_cup" element={<LeaderboardSolaryCup />} />
+          <Route path="/erazer_cup_overlay" element={<ErazerOverlay />} />
+          <Route path="/erazer_cup" element={<LeaderboardErazerCup />} />
+          <Route path="/popup_erazer_cup" element={<PopUpLeaderboard />} />
         </Routes >
       </Router>
   </React.StrictMode>

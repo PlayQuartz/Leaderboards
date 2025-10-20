@@ -1,0 +1,464 @@
+@font-face {
+  font-family: "GoodTimes";
+  src: url("font/good_times.OTF");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("font/Poppins-Regular.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("font/Poppins-Black.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Evers";
+  src: url("font/EVERS.OTF");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OutfitThin";
+  src: url("font/Outfit-Medium.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+html,
+body {
+  overflow: hidden;
+}
+
+.erazer_cup {
+  background-color: black;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+.erazer_cup .btn-container {
+  margin-top: 190px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1648px;
+}
+.erazer_cup .btn-container .btn {
+  cursor: pointer;
+  color: white;
+  background-color: #002a4d;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.erazer_cup .leaderboard_table_prod {
+  margin-top: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #002a4d;
+  display: grid;
+  grid-template-columns: 88px 241px 68px;
+  grid-template-rows: 40px;
+  grid-auto-rows: 56px;
+  column-gap: 0;
+  row-gap: 7px;
+}
+.erazer_cup .leaderboard_table_prod .rank {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #081529;
+  font-size: 20pt;
+  font-weight: 900;
+  font-family: "OutfitThin";
+}
+.erazer_cup .leaderboard_table_prod .name-and-vr {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+  padding: 0 20px 0 18px;
+  color: #fff;
+}
+.erazer_cup .leaderboard_table_prod .name-and-vr.odd {
+  background: linear-gradient(to left, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+}
+.erazer_cup .leaderboard_table_prod .name-and-vr .name {
+  display: flex;
+  align-items: center;
+  font-family: "OutfitThin";
+  text-transform: uppercase;
+}
+.erazer_cup .leaderboard_table_prod .name-and-vr .name.header {
+  color: #00d5f4;
+  font-family: "OutfitThin";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.erazer_cup .leaderboard_table_prod .name-and-vr .wins {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "OutfitThin";
+  font-size: 13pt;
+}
+.erazer_cup .leaderboard_table_prod .name-and-vr .wins.header {
+  color: #00d5f4;
+  font-family: "OutfitThin";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.erazer_cup .leaderboard_table_prod .info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "OutfitThin";
+  font-size: 17pt;
+  font-weight: 300;
+}
+.erazer_cup .leaderboard_table_prod .info.elims {
+  color: white;
+}
+.erazer_cup .leaderboard_table_prod .info.points {
+  color: #fff;
+}
+.erazer_cup .leaderboard_table_prod .header {
+  color: #00d5f4;
+  font-family: "OutfitThin";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.erazer_cup .leaderboard_container_prod {
+  width: 1920px;
+  height: 1080px;
+  background-color: transparent;
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.erazer_cup .rank_container_prod {
+  height: 60px;
+  width: 106px;
+  margin-left: 5px;
+  color: white;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  font-family: "OutfitThin";
+}
+.erazer_cup .name_and_vr_container {
+  width: 507px;
+  height: 60px;
+  background: linear-gradient(to right, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+  padding: 0 20px 0 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffdd33;
+}
+.erazer_cup .name_and_vr_container .name_container_prod {
+  display: flex;
+  align-items: center;
+  font-family: "OutfitThin";
+  font-size: 17pt;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.erazer_cup .name_and_vr_container .vr_container_prod {
+  border-radius: 0;
+  border-bottom: none;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "OutfitThin";
+  font-size: 15pt;
+}
+.erazer_cup .info_box_prod {
+  height: 60px;
+  width: 66px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OutfitThin";
+  font-size: 18pt;
+}
+.erazer_cup .info_box_prod.white {
+  color: white;
+}
+.erazer_cup .info_box_prod.gold {
+  color: #ffdd33;
+}
+.erazer_cup .header_container_prod {
+  display: flex;
+  gap: 10px;
+  box-shadow: none;
+  border-radius: 0;
+}
+.erazer_cup .header_container_prod .rank_header_prod {
+  width: 90px;
+  height: 40px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  color: white;
+  font-family: "OutfitThin";
+  background-color: transparent;
+}
+.erazer_cup .header_container_prod .name_header_prod {
+  width: 710px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  color: white;
+  font-family: "OutfitThin";
+  background-color: transparent;
+}
+.erazer_cup .header_container_prod .info_header_prod {
+  width: 90px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "OutfitThin";
+  background-color: transparent;
+}
+
+.popup_erazer_cup {
+  background-color: transparent;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+.popup_erazer_cup .btn-container {
+  margin-top: 190px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1648px;
+}
+.popup_erazer_cup .btn-container .btn {
+  cursor: pointer;
+  color: white;
+  background-color: #002a4d;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.popup_erazer_cup .leaderboard_table_prod {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: #002a4d;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 42px 232px;
+  grid-auto-rows: 39px;
+  column-gap: 0;
+  row-gap: 2px;
+  width: 312px;
+  height: 501px;
+  padding-top: 80px;
+}
+.popup_erazer_cup .leaderboard_table_prod .rank {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15pt;
+  font-weight: 900;
+  font-family: "OutfitThin";
+}
+.popup_erazer_cup .leaderboard_table_prod .name-and-vr {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+  padding: 0 20px 0 18px;
+  color: #fff;
+}
+.popup_erazer_cup .leaderboard_table_prod .name-and-vr.odd {
+  background: linear-gradient(to left, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+}
+.popup_erazer_cup .leaderboard_table_prod .name-and-vr .name {
+  display: flex;
+  align-items: center;
+  font-family: "OutfitThin";
+  text-transform: uppercase;
+}
+.popup_erazer_cup .leaderboard_table_prod .name-and-vr .name.header {
+  color: #00d5f4;
+  font-family: "OutfitThin";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.popup_erazer_cup .leaderboard_table_prod .name-and-vr .wins {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "OutfitThin";
+  font-size: 13pt;
+}
+.popup_erazer_cup .leaderboard_table_prod .name-and-vr .wins.header {
+  color: #00d5f4;
+  font-family: "OutfitThin";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.popup_erazer_cup .leaderboard_table_prod .info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "OutfitThin";
+  font-size: 15-pt;
+  font-weight: 300;
+}
+.popup_erazer_cup .leaderboard_table_prod .info.elims {
+  color: white;
+}
+.popup_erazer_cup .leaderboard_table_prod .info.points {
+  color: #fff;
+}
+.popup_erazer_cup .leaderboard_table_prod .header {
+  color: #00d5f4;
+  font-family: "OutfitThin";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 8pt;
+  background: none;
+}
+.popup_erazer_cup .leaderboard_container_prod {
+  width: 1920px;
+  height: 1080px;
+  background-color: transparent;
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.popup_erazer_cup .rank_container_prod {
+  height: 60px;
+  width: 106px;
+  margin-left: 5px;
+  color: white;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  font-family: "OutfitThin";
+}
+.popup_erazer_cup .name_and_vr_container {
+  width: 507px;
+  height: 60px;
+  background: linear-gradient(to right, rgba(0, 0, 111, 0.5), rgba(0, 0, 181, 0.5));
+  padding: 0 20px 0 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffdd33;
+}
+.popup_erazer_cup .name_and_vr_container .name_container_prod {
+  display: flex;
+  align-items: center;
+  font-family: "OutfitThin";
+  font-size: 17pt;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.popup_erazer_cup .name_and_vr_container .vr_container_prod {
+  border-radius: 0;
+  border-bottom: none;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "OutfitThin";
+  font-size: 15pt;
+}
+.popup_erazer_cup .info_box_prod {
+  height: 60px;
+  width: 66px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OutfitThin";
+  font-size: 18pt;
+}
+.popup_erazer_cup .info_box_prod.white {
+  color: white;
+}
+.popup_erazer_cup .info_box_prod.gold {
+  color: #ffdd33;
+}
+.popup_erazer_cup .header_container_prod {
+  display: flex;
+  gap: 10px;
+  box-shadow: none;
+  border-radius: 0;
+}
+.popup_erazer_cup .header_container_prod .rank_header_prod {
+  width: 90px;
+  height: 40px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  color: white;
+  font-family: "OutfitThin";
+  background-color: transparent;
+}
+.popup_erazer_cup .header_container_prod .name_header_prod {
+  width: 710px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  color: white;
+  font-family: "OutfitThin";
+  background-color: transparent;
+}
+.popup_erazer_cup .header_container_prod .info_header_prod {
+  width: 90px;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "OutfitThin";
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */

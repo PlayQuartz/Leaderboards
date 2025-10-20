@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.1167fa15.css",
-    "main.js": "/Leaderboards/static/js/main.183410c4.js",
+    "main.css": "/Leaderboards/static/css/main.bcd3977e.css",
+    "main.js": "/Leaderboards/static/js/main.e51830fc.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
+    "static/media/MapPopUp.webm": "/Leaderboards/static/media/MapPopUp.4e53db4f6a60c8b98133.webm",
     "static/media/Bahnschrift.TTF": "/Leaderboards/static/media/Bahnschrift.b00e12e37c52124aa504.TTF",
     "static/media/Helvetica.ttf": "/Leaderboards/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/DrukMedium.otf": "/Leaderboards/static/media/DrukMedium.47690e543461d60f3fa3.otf",
@@ -28,9 +29,11 @@
     "static/media/row10.png": "/Leaderboards/static/media/row10.fafe4a001b00691bc0d2.png",
     "static/media/EVERS.OTF": "/Leaderboards/static/media/EVERS.d9e8f67be86754188526.OTF",
     "static/media/BENIREGULAR.TTF": "/Leaderboards/static/media/BENIREGULAR.63530b244b8ea50a4388.TTF",
+    "static/media/Outfit-Medium.ttf": "/Leaderboards/static/media/Outfit-Medium.4ee1b3eabdd7a82b8222.ttf",
     "static/media/GeomGraphic.otf": "/Leaderboards/static/media/GeomGraphic.bc4a8da202a248e857a9.otf",
     "static/media/FoundryGridnik.otf": "/Leaderboards/static/media/FoundryGridnik.2a5b7bae40900f49d1a1.otf",
     "static/media/Eurostile.otf": "/Leaderboards/static/media/Eurostile.5af602eec7a5fddc3fd4.otf",
+    "static/media/background_popup.png": "/Leaderboards/static/media/background_popup.7936c74c8fce3f26e116.png",
     "static/media/row12.png": "/Leaderboards/static/media/row12.fe76402360028b18077e.png",
     "static/media/row13.png": "/Leaderboards/static/media/row13.f02afa81ea9a049b76fe.png",
     "static/media/row11.png": "/Leaderboards/static/media/row11.b196cd0c4652cd20573d.png",
@@ -38,11 +41,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.1167fa15.css.map": "/Leaderboards/static/css/main.1167fa15.css.map",
-    "main.183410c4.js.map": "/Leaderboards/static/js/main.183410c4.js.map"
+    "main.bcd3977e.css.map": "/Leaderboards/static/css/main.bcd3977e.css.map",
+    "main.e51830fc.js.map": "/Leaderboards/static/js/main.e51830fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.1167fa15.css",
-    "static/js/main.183410c4.js"
+    "static/css/main.bcd3977e.css",
+    "static/js/main.e51830fc.js"
   ]
 }

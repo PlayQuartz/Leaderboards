@@ -96,7 +96,7 @@
   width: 103px;
   margin-left: 5px;
   color: white;
-  background-color: #d1b07d;
+  background: linear-gradient(to bottom left, #e3c15b, #be8932);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,9 +106,9 @@
 .havok-invitational .row_container .name_container {
   height: 82px;
   width: 432px;
-  background-color: #181005;
+  background-color: white;
   border-radius: 0;
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,18 +134,28 @@
   gap: 13px;
   box-shadow: none;
   border-radius: 0;
-  color: #181005;
+  color: #fff;
 }
 .havok-invitational .header_container .rank_header {
   height: 20px;
   width: 103px;
-  color: transparent;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
 }
 .havok-invitational .header_container .name_header {
   height: 20px;
   width: 432px;
   box-shadow: none;
-  color: transparent;
+  color: #fff;
+  font-family: "Bahnschrift";
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .havok-invitational .header_container .info_header {
   width: 100px;
@@ -155,7 +165,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #181005;
+  color: #fff;
   font-family: "Bahnschrift";
   font-weight: 100;
 }

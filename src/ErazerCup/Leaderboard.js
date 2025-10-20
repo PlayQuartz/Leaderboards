@@ -1,22 +1,24 @@
 import './style.css';
 import React, {useState, useEffect} from "react"
 import { useLocation } from 'react-router-dom';
-import background from './assets/background.png'
+
+import LeaderboardBackground from './assets/background.png'
+import Logo from './assets/Logo.png'
 
 function Row({rank, teamname, points, elims, avg_place, wins}) {
     return (
         <div className='row_container'>
-            <div className='rank_container'>{rank}</div>
+            <div className='rank_container'>#{rank}</div>
             <div className='name_container'>{teamname}</div>
-            <div className='info_box'>{avg_place.toFixed(2)}</div>  
-            <div className='info_box'>{elims}</div>  
-            <div className='info_box'>{wins}</div>  
+            <div className='info_box avgplace'>{avg_place.toFixed(2)}</div>  
+            <div className='info_box elims'>{elims}</div>  
+            <div className='info_box wins'>{wins}</div>  
             <div className='info_box'>{points}</div>  
         </div>
     )
 }
 
-function LeaderboardHavoKInvitational() {
+function LeaderboardTCS() {
 
     const leaderboard_id = new URLSearchParams(useLocation().search).get('id');
 
@@ -59,22 +61,40 @@ function LeaderboardHavoKInvitational() {
     }
 
     function previousPage(){
-        setPage(page.map(num => num - 10 ))
+        if(page[0]-10 < 0){
+            setPage([0,10])
+        }
+        else{
+            setPage(page.map(num => num - 10))
+        }
     }
     
     return (
-        <div className='havok-invitational' style={{backgroundImage: `url(${background})`}}> 
+        <div className='tcs'> 
+            <div className='header'>
+                <img className='logo' src={Logo} />
+                <a className='link' href="https://www.wls.gg/WarLegend/events/TCSeSportsLeagueSoloJuly/0/leaderboard" target="_blank" rel="noopener noreferrer">Play</a>
+                <a className='link' href="https://www.twitch.tv/tcsesportsleague" target="_blank" rel="noopener noreferrer">Watch</a>
+            </div>
             <div className='leaderboard_container'>
-                <div key={page} className='leaderboard_table'>
+                <div className='leaderboard_table'>
                     <div className='header_container'>
-                        <div className='rank_header' onClick={previousPage} >RANG</div>
-                        <div className='name_header'>ÉQUIPE</div>
-                        <div style={{fontSize: '13px'}} className='info_header' onClick={previousPage}>PLACE MOY.</div>
-                        <div className='info_header'>ELIMS</div>
-                        <div className='info_header'>WINS</div>
-                        <div onClick={nextPage} className='info_header'>POINTS</div>
+                        <div className='rank_header' >RANK</div>
+                        <div className='name_header'>TEAM</div>
+                        <div style={{fontSize: '13px'}} className='info_header avgplace'>AVG PLACE</div>
+                        <div className='info_header elims'>ELIMS</div>
+                        <div className='info_header wins'>WINS</div>
+                        <div className='info_header'>POINTS</div>
                     </div>
                     {leaderboard ? leaderboard.slice(page[0],page[1]).map(data => <Row rank={data.place} teamname={data.teamname} points={data.points} elims={data.elims} wins={data.wins} avg_place={data.avg_place}/>) : ''}
+                </div>
+                <div className='page-manager'>
+                    <div onClick={previousPage} className='previous-page page-btn'>
+                        {"<<"} Previous Page
+                    </div>
+                    <div onClick={nextPage} className='previous-page page-btn'>
+                        Next Page {">>"}
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,4 +102,4 @@ function LeaderboardHavoKInvitational() {
     )
 }
 
-export default LeaderboardHavoKInvitational
+export default LeaderboardTCS

@@ -68,8 +68,8 @@
 
             margin-left: 5px;
             color: white;
-            background-color:  #d1b07d;
-
+            // background-color:  #d1b07d;
+            background: linear-gradient(to bottom left, #e3c15b, #be8932);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -84,10 +84,10 @@
             height: 82px;
             width: 432px;
     
-            background-color: #181005;
+            background-color: white;
             border-radius: 0;
     
-            color: #fff;
+            color: #000;
 
             display: flex;
             align-items: center;
@@ -122,20 +122,29 @@
         gap: 13px;
         box-shadow: none;
         border-radius: 0;
-        color: #181005;
+        color: #fff;
 
         .rank_header{
             height: 20px;
             width: 103px;
-            
-            color: transparent;
+                        align-items: center;
+            justify-content: center;
+            display: flex;
+            color: #fff;
         }
 
         .name_header{
             height: 20px;
             width: 432px;
             box-shadow: none;
-            color: transparent;
+            color: #fff;
+            font-family: 'Bahnschrift';
+            font-weight: 100;
+            font-size: 16px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
         }
     
         .info_header{
@@ -149,7 +158,7 @@
             justify-content: center;
             align-items: center;
     
-            color: #181005;
+            color: #fff;
             font-family: 'Bahnschrift';
             font-weight: 100;
         }

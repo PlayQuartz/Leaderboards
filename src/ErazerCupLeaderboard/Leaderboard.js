@@ -2,22 +2,23 @@ import './style.css';
 import React, { useState, useEffect } from "react"
 import { useLocation } from 'react-router-dom';
 import BackgroundImage from './assets/background.png'
+import rank_img from './assets/rank.png'
+import name_img from './assets/name.png'
+import points_img from './assets/points.png'
 
 function Row({ rank, teamname, points, elims, avg_place, wins, index }) {
     return (
         <>
-            <div className={rank <= 3 ? `rank top${rank}` : 'rank'}>{rank}</div>
-            <div className={index % 2 ? 'name-and-vr' : 'name-and-vr odd'}>
+            <div className={rank <= 3 ? `rank top${rank}` : 'rank'} style={{ backgroundImage: `url(${rank_img})` }}>{rank}</div>
+            <div className={index % 2 ? 'name-and-vr' : 'name-and-vr odd'} style={{ backgroundImage: `url(${name_img})` }}>
                 <div className='name'>{teamname}</div>
-                <div className='wins'>{wins === 0 ? '-' : wins}</div>
             </div>
-            <div className='info elims'>{elims}</div>
-            <div className='info points'>{points}</div>
+            <div className='info points' style={{ backgroundImage: `url(${points_img})` }}>{points}</div>
         </>
     )
 }
 
-function LeaderboardSolaryCup() {
+function LeaderboardErazerCup() {
 
     const leaderboard_id = new URLSearchParams(useLocation().search).get('id');
 
@@ -56,7 +57,7 @@ function LeaderboardSolaryCup() {
     }, [])
 
     function nextPage() {
-        if (page != 8) {
+        if (page != 6) {
             setPage(page + 1)
         }
 
@@ -70,31 +71,54 @@ function LeaderboardSolaryCup() {
     }
 
     return (
-        <div className='solary_prod' style={{ backgroundImage: `url(${BackgroundImage})` }}>
+        <div className='erazer_cup' style={{ backgroundImage: `url(${BackgroundImage})` }}>
+
+            <div className='btn-container'>
+                <div className='btn previous' onClick={previousPage}>Previous Page</div>
+                <div className='btn next' onClick={nextPage}>Next Page</div>
+            </div>
+
+
             <div className='leaderboard_container_prod'>
                 <div className='leaderboard_table_prod'>
 
-                    <div className='rank header' onClick={previousPage} >CLASS.</div>
+                    <div className='rank header' onClick={previousPage} >RANK</div>
                     <div className='name-and-vr header'>
-                        <div className='name header'>JOUEURS EN DUO</div>
-                        <div className='wins header'>VR</div>
+                        <div className='name header'>PLAYER</div>
                     </div>
-                    <div className='info header'>ELIM.</div>
                     <div onClick={nextPage} className='info header'>POINTS</div>
 
                     {leaderboard ? leaderboard.slice(page * 10, (page + 1) * 10).map((data, index) => <Row index={index} rank={data.place} teamname={data.teamname} points={data.points} elims={data.elims} wins={data.wins} avg_place={data.avg_place} />) : ''}
                 </div>
                 <div className='leaderboard_table_prod'>
 
-                    <div className='rank header' onClick={previousPage} >CLASS.</div>
+                    <div className='rank header' onClick={previousPage} >RANK</div>
                     <div className='name-and-vr header'>
-                        <div className='name header'>JOUEURS EN DUO</div>
-                        <div className='wins header'>VR</div>
+                        <div className='name header'>PLAYER</div>
                     </div>
-                    <div className='info header'>ELIM.</div>
                     <div onClick={nextPage} className='info header'>POINTS</div>
 
                     {leaderboard ? leaderboard.slice((page + 1) * 10, (page + 2) * 10).map((data, index) => <Row index={index} rank={data.place} teamname={data.teamname} points={data.points} elims={data.elims} wins={data.wins} avg_place={data.avg_place} />) : ''}
+                </div>
+                <div className='leaderboard_table_prod'>
+
+                    <div className='rank header' onClick={previousPage} >RANK</div>
+                    <div className='name-and-vr header'>
+                        <div className='name header'>PLAYER</div>
+                    </div>
+                    <div onClick={nextPage} className='info header'>POINTS</div>
+
+                    {leaderboard ? leaderboard.slice((page + 2) * 10, (page + 3) * 10).map((data, index) => <Row index={index} rank={data.place} teamname={data.teamname} points={data.points} elims={data.elims} wins={data.wins} avg_place={data.avg_place} />) : ''}
+                </div>
+                <div className='leaderboard_table_prod'>
+
+                    <div className='rank header' onClick={previousPage} >RANK</div>
+                    <div className='name-and-vr header'>
+                        <div className='name header'>PLAYER</div>
+                    </div>
+                    <div onClick={nextPage} className='info header'>POINTS</div>
+
+                    {leaderboard ? leaderboard.slice((page + 3) * 10, (page + 4) * 10).map((data, index) => <Row index={index} rank={data.place} teamname={data.teamname} points={data.points} elims={data.elims} wins={data.wins} avg_place={data.avg_place} />) : ''}
                 </div>
             </div>
         </div>
@@ -102,4 +126,4 @@ function LeaderboardSolaryCup() {
     )
 }
 
-export default LeaderboardSolaryCup
+export default LeaderboardErazerCup
