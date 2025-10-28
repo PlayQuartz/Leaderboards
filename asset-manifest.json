@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.e7cf38aa.css",
-    "main.js": "/Leaderboards/static/js/main.468e12b8.js",
+    "main.css": "/Leaderboards/static/css/main.780f95d8.css",
+    "main.js": "/Leaderboards/static/js/main.bd2aad03.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
     "static/media/NewPopUp.webm": "/Leaderboards/static/media/NewPopUp.6168e5c714307eb3a25a.webm",
     "static/media/Bahnschrift.TTF": "/Leaderboards/static/media/Bahnschrift.b00e12e37c52124aa504.TTF",
     "static/media/Helvetica.ttf": "/Leaderboards/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/DrukMedium.otf": "/Leaderboards/static/media/DrukMedium.47690e543461d60f3fa3.otf",
     "static/media/IMPACT.TTF": "/Leaderboards/static/media/IMPACT.393c8a0b905e3208112c.TTF",
+    "static/media/background_popup.png": "/Leaderboards/static/media/background_popup.7936c74c8fce3f26e116.png",
     "static/media/Poppins-Regular.ttf": "/Leaderboards/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/OmnesSemiBold.ttf": "/Leaderboards/static/media/OmnesSemiBold.d9e74f703b27c9c45d13.ttf",
     "static/media/row5.png": "/Leaderboards/static/media/row5.20ad8bdf2e515b2d664f.png",
@@ -33,7 +34,6 @@
     "static/media/GeomGraphic.otf": "/Leaderboards/static/media/GeomGraphic.bc4a8da202a248e857a9.otf",
     "static/media/FoundryGridnik.otf": "/Leaderboards/static/media/FoundryGridnik.2a5b7bae40900f49d1a1.otf",
     "static/media/Eurostile.otf": "/Leaderboards/static/media/Eurostile.5af602eec7a5fddc3fd4.otf",
-    "static/media/background_popup.png": "/Leaderboards/static/media/background_popup.7936c74c8fce3f26e116.png",
     "static/media/row12.png": "/Leaderboards/static/media/row12.fe76402360028b18077e.png",
     "static/media/row13.png": "/Leaderboards/static/media/row13.f02afa81ea9a049b76fe.png",
     "static/media/row11.png": "/Leaderboards/static/media/row11.b196cd0c4652cd20573d.png",
@@ -41,11 +41,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.e7cf38aa.css.map": "/Leaderboards/static/css/main.e7cf38aa.css.map",
-    "main.468e12b8.js.map": "/Leaderboards/static/js/main.468e12b8.js.map"
+    "main.780f95d8.css.map": "/Leaderboards/static/css/main.780f95d8.css.map",
+    "main.bd2aad03.js.map": "/Leaderboards/static/js/main.bd2aad03.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7cf38aa.css",
-    "static/js/main.468e12b8.js"
+    "static/css/main.780f95d8.css",
+    "static/js/main.bd2aad03.js"
   ]
 }
