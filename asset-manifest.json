@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.780f95d8.css",
-    "main.js": "/Leaderboards/static/js/main.bd2aad03.js",
+    "main.css": "/Leaderboards/static/css/main.f316e10a.css",
+    "main.js": "/Leaderboards/static/js/main.d39ce6fc.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
+    "static/media/Background.jpg": "/Leaderboards/static/media/Background.aee4062e0e4a075f4792.jpg",
     "static/media/NewPopUp.webm": "/Leaderboards/static/media/NewPopUp.6168e5c714307eb3a25a.webm",
     "static/media/Bahnschrift.TTF": "/Leaderboards/static/media/Bahnschrift.b00e12e37c52124aa504.TTF",
     "static/media/Helvetica.ttf": "/Leaderboards/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
@@ -32,8 +33,8 @@
     "static/media/BENIREGULAR.TTF": "/Leaderboards/static/media/BENIREGULAR.63530b244b8ea50a4388.TTF",
     "static/media/Outfit-Medium.ttf": "/Leaderboards/static/media/Outfit-Medium.4ee1b3eabdd7a82b8222.ttf",
     "static/media/GeomGraphic.otf": "/Leaderboards/static/media/GeomGraphic.bc4a8da202a248e857a9.otf",
+    "static/media/MonumentExtended.otf": "/Leaderboards/static/media/MonumentExtended.db74f7a563ec017311bc.otf",
     "static/media/FoundryGridnik.otf": "/Leaderboards/static/media/FoundryGridnik.2a5b7bae40900f49d1a1.otf",
-    "static/media/Eurostile.otf": "/Leaderboards/static/media/Eurostile.5af602eec7a5fddc3fd4.otf",
     "static/media/row12.png": "/Leaderboards/static/media/row12.fe76402360028b18077e.png",
     "static/media/row13.png": "/Leaderboards/static/media/row13.f02afa81ea9a049b76fe.png",
     "static/media/row11.png": "/Leaderboards/static/media/row11.b196cd0c4652cd20573d.png",
@@ -41,11 +42,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.780f95d8.css.map": "/Leaderboards/static/css/main.780f95d8.css.map",
-    "main.bd2aad03.js.map": "/Leaderboards/static/js/main.bd2aad03.js.map"
+    "main.f316e10a.css.map": "/Leaderboards/static/css/main.f316e10a.css.map",
+    "main.d39ce6fc.js.map": "/Leaderboards/static/js/main.d39ce6fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.780f95d8.css",
-    "static/js/main.bd2aad03.js"
+    "static/css/main.f316e10a.css",
+    "static/js/main.d39ce6fc.js"
   ]
 }
