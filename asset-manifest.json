@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.40db729a.css",
-    "main.js": "/Leaderboards/static/js/main.b74b9546.js",
+    "main.css": "/Leaderboards/static/css/main.6bf7de27.css",
+    "main.js": "/Leaderboards/static/js/main.a5d1d12f.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
     "static/media/Background.jpg": "/Leaderboards/static/media/Background.aee4062e0e4a075f4792.jpg",
     "static/media/NewPopUp.webm": "/Leaderboards/static/media/NewPopUp.6168e5c714307eb3a25a.webm",
@@ -16,6 +16,7 @@
     "static/media/Poppins-Black.ttf": "/Leaderboards/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "static/media/row4.png": "/Leaderboards/static/media/row4.a177b94aa3a5b5a376bd.png",
     "static/media/GroldMedium.ttf": "/Leaderboards/static/media/GroldMedium.14f8acef6cbba1bb88e5.ttf",
+    "static/media/Foreground.png": "/Leaderboards/static/media/Foreground.35ed497fa82a08274d70.png",
     "static/media/MazzardHExtraBold.otf": "/Leaderboards/static/media/MazzardHExtraBold.70ec889065ac55326591.otf",
     "static/media/wolt_character.png": "/Leaderboards/static/media/wolt_character.749771f67862b91fb4db.png",
     "static/media/row7.png": "/Leaderboards/static/media/row7.2702485b7bbbd0503830.png",
@@ -43,11 +44,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.40db729a.css.map": "/Leaderboards/static/css/main.40db729a.css.map",
-    "main.b74b9546.js.map": "/Leaderboards/static/js/main.b74b9546.js.map"
+    "main.6bf7de27.css.map": "/Leaderboards/static/css/main.6bf7de27.css.map",
+    "main.a5d1d12f.js.map": "/Leaderboards/static/js/main.a5d1d12f.js.map"
   },
   "entrypoints": [
-    "static/css/main.40db729a.css",
-    "static/js/main.b74b9546.js"
+    "static/css/main.6bf7de27.css",
+    "static/js/main.a5d1d12f.js"
   ]
 }
