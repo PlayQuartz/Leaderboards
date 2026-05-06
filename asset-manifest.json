@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Leaderboards/static/css/main.bbd54a9f.css",
-    "main.js": "/Leaderboards/static/js/main.3cf17056.js",
+    "main.css": "/Leaderboards/static/css/main.bc72432a.css",
+    "main.js": "/Leaderboards/static/js/main.edabde5c.js",
     "static/media/background.png": "/Leaderboards/static/media/background.6d0bcb66fe9829c326ac.png",
     "static/media/Background.jpg": "/Leaderboards/static/media/Background.aee4062e0e4a075f4792.jpg",
     "static/media/NewPopUp.webm": "/Leaderboards/static/media/NewPopUp.6168e5c714307eb3a25a.webm",
@@ -44,11 +44,11 @@
     "static/media/row14.png": "/Leaderboards/static/media/row14.595e95d20c2f5dc41782.png",
     "static/media/good_times.OTF": "/Leaderboards/static/media/good_times.a86d4f7f5cdb8cf2e409.OTF",
     "index.html": "/Leaderboards/index.html",
-    "main.bbd54a9f.css.map": "/Leaderboards/static/css/main.bbd54a9f.css.map",
-    "main.3cf17056.js.map": "/Leaderboards/static/js/main.3cf17056.js.map"
+    "main.bc72432a.css.map": "/Leaderboards/static/css/main.bc72432a.css.map",
+    "main.edabde5c.js.map": "/Leaderboards/static/js/main.edabde5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd54a9f.css",
-    "static/js/main.3cf17056.js"
+    "static/css/main.bc72432a.css",
+    "static/js/main.edabde5c.js"
   ]
 }
